@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/my_nav"
+    app:startDestination="@id/splash">
+    <fragment
+        android:id="@+id/splash"
+        android:name="com.jitzimoto.fragments.splash.Splash"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash" >
+        <action
+            android:id="@+id/action_splash_to_login"
+            app:destination="@id/login" />
+        <action
+            android:id="@+id/action_splash_to_home1"
+            app:destination="@id/home1" />
+        <action
+            android:id="@+id/action_splash_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/home1"
+        android:name="com.jitzimoto.fragments.home.Home1"
+        android:label="fragment_home1"
+        tools:layout="@layout/fragment_home1" >
+        <action
+            android:id="@+id/action_home1_to_splash2"
+            app:destination="@id/splash" />
+        <action
+            android:id="@+id/action_home1_to_services"
+            app:destination="@id/services" />
+        <action
+            android:id="@+id/action_home1_to_listings"
+            app:destination="@id/Listings" />
+        <action
+            android:id="@+id/action_home1_to_bookings"
+            app:destination="@id/bookings" />
+        <action
+            android:id="@+id/action_home1_to_profile"
+            app:destination="@id/profile" />
+        <action
+            android:id="@+id/action_home1_to_bizListings"
+            app:destination="@id/bizListings" />
+        <action
+            android:id="@+id/action_home1_to_mybookings"
+            app:destination="@id/mybookings" />
+    </fragment>
+    <fragment
+        android:id="@+id/login"
+        android:name="com.jitzimoto.fragments.login.Login"
+        android:label="fragment_login"
+        tools:layout="@layout/fragment_login" >
+        <action
+            android:id="@+id/action_login_to_home1"
+            app:destination="@id/home1" />
+        <action
+            android:id="@+id/action_login_to_bizSignup2"
+            app:destination="@id/bizSignup" />
+        <action
+            android:id="@+id/action_login_to_consumerSignup"
+            app:destination="@id/consumerSignup" />
+    </fragment>
+    <fragment
+        android:id="@+id/signupSelector"
+        android:name="com.jitzimoto.fragments.signup.signupSelector"
+        android:label="fragment_signup_selector"
+        tools:layout="@layout/fragment_signup_selector" />
+    <fragment
+        android:id="@+id/consumerSignup"
+        android:name="com.jitzimoto.fragments.signup.consumerSignup"
+        android:label="fragment_consumer_signup"
+        tools:layout="@layout/fragment_consumer_signup" >
+        <action
+            android:id="@+id/action_consumerSignup_to_splash"
+            app:destination="@id/splash" />
+    </fragment>
+    <fragment
+        android:id="@+id/bizSignup"
+        android:name="com.jitzimoto.fragments.signup.bizSignup"
+        android:label="fragment_biz_signup"
+        tools:layout="@layout/fragment_biz_signup" >
+        <action
+            android:id="@+id/action_bizSignup_to_verifiy"
+            app:destination="@id/verifiy" />
+    </fragment>
+    <fragment
+        android:id="@+id/verifiy"
+        android:name="com.jitzimoto.fragments.signup.Verifiy"
+        android:label="fragment_verifiy"
+        tools:layout="@layout/fragment_verifiy" >
+        <action
+            android:id="@+id/action_verifiy_to_login2"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/services"
+        android:name="com.jitzimoto.fragments.services.services"
+        android:label="fragment_services"
+        tools:layout="@layout/fragment_services" >
+        <action
+            android:id="@+id/action_services_to_editServices"
+            app:destination="@id/editServices" />
+        <action
+            android:id="@+id/action_services_to_createService"
+            app:destination="@id/createService" />
+        <action
+            android:id="@+id/action_services_to_home1"
+            app:destination="@id/home1" />
+    </fragment>
+    <fragment
+        android:id="@+id/Listings"
+        android:name="com.jitzimoto.fragments.listings.listings"
+        android:label="fragment_listings"
+        tools:layout="@layout/fragment_listings" >
+        <argument
+            android:name="searchparam"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_Listings_to_bookService"
+            app:destination="@id/bookService" />
+    </fragment>
+    <fragment
+        android:id="@+id/storePage"
+        android:name="com.jitzimoto.fragments.storePage.StorePage"
+        android:label="fragment_store_page"
+        tools:layout="@layout/fragment_store_page" />
+    <fragment
+        android:id="@+id/bookService"
+        android:name="com.jitzimoto.fragments.services.bookService"
+        android:label="fragment_book_service"
+        tools:layout="@layout/fragment_book_service" >
+        <argument
+            android:name="serviceprams"
+            app:argType="com.jitzimoto.dataModels.createServiceModel" />
+        <action
+            android:id="@+id/action_bookService_to_home1"
+            app:destination="@id/home1" />
+        <action
+            android:id="@+id/action_bookService_to_home2"
+            app:destination="@id/home2" />
+    </fragment>
+    <fragment
+        android:id="@+id/editServices"
+        android:name="com.jitzimoto.fragments.services.editServices"
+        android:label="fragment_edit_services"
+        tools:layout="@layout/fragment_edit_services" >
+        <argument
+            android:name="myservice"
+            app:argType="com.jitzimoto.dataModels.createServiceModel" />
+        <action
+            android:id="@+id/action_editServices_to_services"
+            app:destination="@id/services" />
+    </fragment>
+    <fragment
+        android:id="@+id/createService"
+        android:name="com.jitzimoto.fragments.services.createService"
+        android:label="fragment_create_service"
+        tools:layout="@layout/fragment_create_service" >
+        <action
+            android:id="@+id/action_createService_to_services"
+            app:destination="@id/services" />
+    </fragment>
+    <fragment
+        android:id="@+id/bookings"
+        android:name="com.jitzimoto.fragments.bookings.bookings"
+        android:label="fragment_bookings"
+        tools:layout="@layout/fragment_bookings" >
+        <argument
+            android:name="bookingparams"
+            app:argType="com.jitzimoto.dataModels.bookingModel" />
+    </fragment>
+    <fragment
+        android:id="@+id/editbookings"
+        android:name="com.jitzimoto.fragments.bookings.editbookings"
+        android:label="fragment_editbookings"
+        tools:layout="@layout/fragment_editbookings" >
+        <argument
+            android:name="editBookingsParam"
+            app:argType="com.jitzimoto.dataModels.bookingModel" />
+        <action
+            android:id="@+id/action_editbookings_to_mybookings"
+            app:destination="@id/mybookings" />
+    </fragment>
+    <fragment
+        android:id="@+id/home2"
+        android:name="com.jitzimoto.fragments.home.home2"
+        android:label="fragment_home2"
+        tools:layout="@layout/fragment_home2" >
+        <action
+            android:id="@+id/action_home2_to_login"
+            app:destination="@id/login" />
+    </fragment>
+    <fragment
+        android:id="@+id/profile"
+        android:name="com.jitzimoto.profile"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" >
+        <action
+            android:id="@+id/action_profile_to_home1"
+            app:destination="@id/home1" />
+    </fragment>
+    <fragment
+        android:id="@+id/bizListings"
+        android:name="com.jitzimoto.fragments.listings.bizListings"
+        android:label="fragment_biz_listings"
+        tools:layout="@layout/fragment_biz_listings" >
+        <argument
+            android:name="searchparam"
+            app:argType="string" />
+        <action
+            android:id="@+id/action_bizListings_to_bizbooking"
+            app:destination="@id/bizbooking" />
+    </fragment>
+    <fragment
+        android:id="@+id/mybookings"
+        android:name="com.jitzimoto.fragments.bookings.mybookings"
+        android:label="fragment_mybookings"
+        tools:layout="@layout/fragment_mybookings" >
+        <action
+            android:id="@+id/action_mybookings_to_editbookings"
+            app:destination="@id/editbookings" />
+    </fragment>
+    <fragment
+        android:id="@+id/bizbooking"
+        android:name="com.jitzimoto.bizbooking"
+        android:label="fragment_bizbooking"
+        tools:layout="@layout/fragment_bizbooking" >
+        <action
+            android:id="@+id/action_bizbooking_to_timeSlotBooking"
+            app:destination="@id/timeSlotBooking" />
+    </fragment>
+    <fragment
+        android:id="@+id/timeSlotBooking"
+        android:name="com.jitzimoto.timeSlotBooking"
+        android:label="fragment_time_slot_booking"
+        tools:layout="@layout/fragment_time_slot_booking" />
+</navigation>

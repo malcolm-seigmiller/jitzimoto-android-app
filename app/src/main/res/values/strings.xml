@@ -1,0 +1,4328 @@
+<resources>
+    <string name="app_name">Jitzimoto</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_the_login">this is the login</string>
+    <string name="email">email</string>
+    <string name="login">login</string>
+    <string name="sign_up">sign up</string>
+    <string name="this_is_the_sign_up_selector">this is the sign up selector</string>
+    <string name="i_m_just_here_to_book_a_service">Im just here to book a service</string>
+    <string name="this_is_a_the_biz_signup">this is a the biz signup</string>
+    <string name="county">county</string>
+    <string name="city_and_region">city and region</string>
+    <string name="broad_business_category">broad business category</string>
+    <string name="type_of_business">type of business</string>
+    <string name="confirm_password">confirm password</string>
+    <string name="password">password</string>
+    <string name="business_name">business name</string>
+    <string name="subcontractor">agent signup</string>
+    <string name="please_check_your_email_for_a_verification_key">please check your email for a verification key</string>
+    <string name="verify">verify</string>
+    <string name="new_bookings">new bookings</string>
+    <string name="search_local_businesses">search local businesses</string>
+    <string name="my_services">my services</string>
+    <string name="my_bookings">my bookings</string>
+    <string name="my_profile">my profile</string>
+    <string name="go">go</string>
+    <string name="my_service_offerings">my service offerings</string>
+    <string name="create_a_service_offering">create a service listing</string>
+    <string name="service_name">service name</string>
+    <string name="service_type">service type</string>
+    <string name="description">description</string>
+    <string name="price">price</string>
+    <string name="starting_time">starting available time</string>
+    <string name="ending_time">ending available time</string>
+    <string name="create">create</string>
+    <string name="mon">MON</string>
+    <string name="tue">TUE</string>
+    <string name="wed">WED</string>
+    <string name="thu">THU</string>
+    <string name="fri">FRI</string>
+    <string name="sat">SAT</string>
+    <string name="sun">SUN</string>
+    <string name="edit">edit</string>
+    <string name="service_booked">service booked</string>
+    <string name="no">no</string>
+    <string name="yes">yes</string>
+
+    <string-array name="service_types">
+
+    </string-array>
+
+
+    <string-array name="nations">
+        <item>canada</item>
+        <item>us</item>
+        <item>uk</item>
+        <item>australia</item>
+        <item>new zealand</item>
+    </string-array>
+
+    <string-array name="canada">
+        <item>Alberta</item>
+        <item>British Columbia</item>
+        <item>Manitoba</item>
+        <item>New Brunswick</item>
+        <item>Newfoundland and Labrador</item>
+        <item>Nova Scotia</item>
+        <item>Nunavut</item>
+        <item>Ontario</item>
+        <item>Prince Edward Island</item>
+        <item>Northwest Territories</item>
+        <item>Quebec</item>
+        <item>Saskatchewan</item>
+        <item>Yukon</item>
+        <!--    start locality here    -->
+
+        <item>calgary, alberta</item>
+        <item>edmonton, alberta</item>
+        <item>ft-mcmurray, alberta</item>
+        <item>lethbridge, alberta</item>
+        <item>medicine-hat, alberta</item>
+        <item>peace-river-country, alberta</item>
+        <item>red-deer, alberta</item>
+
+        <item>cariboo, British Columbia</item>
+        <item>comox-valley, British Columbia</item>
+        <item>fraser-valley, British Columbia</item>
+        <item>kamloops, British Columbia</item>
+        <item>kelowna-okanagan, British Columbia</item>
+        <item>kootenays, British Columbia</item>
+        <item>nanaimo, British Columbia</item>
+        <item>prince-george, British Columbia</item>
+        <item>skeena-bulkley, British Columbia</item>
+        <item>sunshine-coast, British Columbia</item>
+        <item>vancouver, British Columbia</item>
+        <item>victoria, British Columbia</item>
+        <item>whistler, British Columbia</item>
+    </string-array>
+
+
+    <string-array name="uk_regions">
+        <item>East Midlands</item>
+        <item>East of England</item>
+        <item>London</item>
+        <item>North East England</item>
+        <item>North West England</item>
+        <item>south East England</item>
+        <item>south West England</item>
+        <item>West Midlands</item>
+        <item>Yorkshire and the Humber</item>
+        <item>scotland</item>
+        <item>Wales</item>
+        <item>Northern Ireland</item>
+        <item>Crown Dependencies</item>
+    </string-array>
+
+    <string-array name="australia">
+        <item>New South Wales</item>
+        <item>Queensland</item>
+        <item>South Australia</item>
+        <item>Tasmania</item>
+        <item>Victoria</item>
+        <item>Western Australia</item>
+        <item>Australian Capital Territory</item>
+        <item>Northern Territory</item>
+    </string-array>
+
+    <string-array name="new_Zealand">
+        <item>new Zealand</item>
+    </string-array>
+
+    <!--regions of canada-->
+
+    <!--american states-->
+    <string-array name="american_states">
+        <item>ALABAMA</item>
+        <item>ALASKA</item>
+        <item>AMERICAN SAMOA</item>
+        <item>ARIZONA</item>
+        <item>ARKANSAS</item>
+        <item>CALIFORNIA</item>
+        <item>COLORADO</item>
+        <item>CONNECTICUT</item>
+        <item>DELAWARE</item>
+        <item>DISTRICT OF COLUMBIA</item>
+        <item>FEDERATED STATES OF MICRONESIA</item>
+        <item>FLORIDA</item>
+        <item>GEORGIA</item>
+        <item>GUAM</item>
+        <item>HAWAII</item>
+        <item>IDAHO</item>
+        <item>ILLINOIS</item>
+        <item>INDIANA</item>
+        <item>IOWA</item>
+        <item>KANSAS</item>
+        <item>KENTUCKY</item>
+        <item>LOUISIANA</item>
+        <item>MAINE</item>
+        <item>MARSHALL ISLANDS</item>
+        <item>MARYLAND</item>
+        <item>MASSACHUSETTS</item>
+        <item>MICHIGAN</item>
+        <item>MINNESOTA</item>
+        <item>MISSISSIPPI</item>
+        <item>MISSOURI</item>
+        <item>MONTANA</item>
+        <item>NEBRASKA</item>
+        <item>NEVADA</item>
+        <item>NEW HAMPSHIRE</item>
+        <item>NEW JERSEY</item>
+        <item>NEW MEXICO</item>
+        <item>NEW YORK</item>
+        <item>NORTH CAROLINA</item>
+        <item>NORTH DAKOTA</item>
+        <item>NORTHERN MARIANA ISLANDS</item>
+        <item>OHIO</item>
+        <item>OKLAHOMA</item>
+        <item>OREGON</item>
+        <item>PALAU</item>
+        <item>PENNSYLVANIA</item>
+        <item>PUERTO RICO</item>
+        <item>RHODE ISLAND</item>
+        <item>SOUTH CAROLINA</item>
+        <item>SOUTH DAKOTA</item>
+        <item>TENNESSEE</item>
+        <item>TEXAS</item>
+        <item>UTAH</item>
+        <item>VERMONT</item>
+        <item>VIRGIN ISLANDS</item>
+        <item>VIRGINIA</item>
+        <item>WASHINGTON</item>
+        <item>WEST VIRGINIA</item>
+        <item>WISCONSIN</item>
+        <item>WYOMING</item>
+
+        <!--    here goes the states    -->
+
+        <!--    ALABAMA    -->
+
+        <item>auburn, Alabama</item>
+        <item>birmingham, Alabama</item>
+        <item>dothan, Alabama</item>
+        <item>florence muscle, Alabama</item>
+        <item>shoals, Alabama</item>
+        <item>gadsden-anniston, Alabama</item>
+        <item>huntsville decatur, Alabama</item>
+        <item>mobile, Alabama</item>
+        <item>montgomery, Alabama</item>
+        <item>tuscaloosa, Alabama</item>
+
+        <!--        alaska-->
+        <item>anchorage-mat-su, alaska</item>
+        <item>fairbanks, alaska</item>
+        <item>kenai-peninsula, alaska</item>
+        <item>southeast-alaska, alaska</item>
+    </string-array>
+
+
+    <!--    <string-array name="reg_alberta">-->
+    <!--        <item>calgary</item>-->
+    <!--        <item>edmonton</item>-->
+    <!--        <item>fort mcmurray</item>-->
+    <!--        <item>lethbridge</item>-->
+    <!--        <item>medicine hat</item>-->
+    <!--        <item>peace river country</item>-->
+    <!--        <item>red deer</item>-->
+    <!--        <item>alberta</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_bc">-->
+    <!--        <item>cariboo</item>-->
+    <!--        <item>comox valley</item>-->
+    <!--        <item>fraser valley</item>-->
+    <!--        <item>kamloops</item>-->
+    <!--        <item>kelowna / okanagan</item>-->
+    <!--        <item>kootenays</item>-->
+    <!--        <item>nanaimo</item>-->
+    <!--        <item>prince george</item>-->
+    <!--        <item>skeena-bulkley</item>-->
+    <!--        <item>sunshine coast</item>-->
+    <!--        <item>vancouver</item>-->
+    <!--        <item>victoria</item>-->
+    <!--        <item>whistler</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_mb">-->
+    <!--        <item>winnipeg</item>-->
+    <!--        <item>brandon</item>-->
+    <!--        <item>manitoba</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_nb">-->
+    <!--        <item>New Brunswick</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_nl">-->
+    <!--        <item>st johns</item>-->
+    <!--        <item>Newfoundland and Labrador</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_nw">-->
+    <!--        <item>st johns</item>-->
+    <!--        <item>Newfoundland and Labrador</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_ns">-->
+    <!--        <item>st johns</item>-->
+    <!--        <item>Newfoundland and Labrador</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_on">-->
+    <!--        <item>Ontario</item>-->
+    <!--        <item>barrie</item>-->
+    <!--        <item>belleville</item>-->
+    <!--        <item>brantford-woodstock</item>-->
+    <!--        <item>chatham-kent</item>-->
+    <!--        <item>cornwall</item>-->
+    <!--        <item>guelph</item>-->
+    <!--        <item>hamilton-burlington</item>-->
+    <!--        <item>kingston</item>-->
+    <!--        <item>kitchener-waterloo-cambridge</item>-->
+    <!--        <item>london</item>-->
+    <!--        <item>niagara</item>-->
+    <!--        <item>region</item>-->
+    <!--        <item>ottawa-hull-gatineau</item>-->
+    <!--        <item>owen</item>-->
+    <!--        <item>sound</item>-->
+    <!--        <item>peterborough</item>-->
+    <!--        <item>sarnia</item>-->
+    <!--        <item>sault</item>-->
+    <!--        <item>ste</item>-->
+    <!--        <item>marie</item>-->
+    <!--        <item>sudbury</item>-->
+    <!--        <item>thunder</item>-->
+    <!--        <item>bay</item>-->
+    <!--        <item>toronto</item>-->
+    <!--        <item>windsor</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_nn">-->
+    <!--        <item>Nunavut</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_pei">-->
+    <!--        <item>Prince Edward Island</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_sk">-->
+    <!--        <item>Saskatchewan</item>-->
+    <!--        <item>regina</item>-->
+    <!--        <item>saskatoon</item>-->
+    <!--    </string-array>-->
+
+    <!--    <string-array name="reg_yt">-->
+    <!--        <item>Yukon Territory</item>-->
+    <!--        <item>whitehorse</item>-->
+    <!--    </string-array>-->
+
+    <!--1/50-->
+    <!--    <string-array name="ALABAMA">-->
+    <!--        <item>Alabama</item>-->
+    <!--        <item>auburn</item>-->
+    <!--        <item>birmingham</item>-->
+    <!--        <item>dothan</item>-->
+    <!--        <item>florence</item>-->
+    <!--        <item>muscle</item>-->
+    <!--        <item>shoals</item>-->
+    <!--        <item>gadsden-anniston</item>-->
+    <!--        <item>huntsville</item>-->
+    <!--        <item>/</item>-->
+    <!--        <item>decatur</item>-->
+    <!--        <item>mobile</item>-->
+    <!--        <item>montgomery</item>-->
+    <!--        <item>tuscaloosa</item>-->
+    <!--    </string-array>-->
+
+    <!--2/50-->
+    <!--    <string-array name="ALASKA">-->
+    <!--        <item>Alaska</item>-->
+    <!--        <item>anchorage and mat-su</item>-->
+    <!--        <item>fairbanks</item>-->
+    <!--        <item>kenai</item>-->
+    <!--        <item>peninsula</item>-->
+    <!--        <item>southeast</item>-->
+    <!--        <item>alaska</item>-->
+    <!--    </string-array>-->
+
+    <!--3/50-->
+    <!--    <string-array name="Arizona">-->
+    <!--        <item>Arizona</item>-->
+    <!--        <item>flagstaff</item>-->
+    <!--        <item>/</item>-->
+    <!--        <item>sedona</item>-->
+    <!--        <item>mohave</item>-->
+    <!--        <item>county</item>-->
+    <!--        <item>phoenix</item>-->
+    <!--        <item>prescott</item>-->
+    <!--        <item>show</item>-->
+    <!--        <item>low</item>-->
+    <!--        <item>sierra</item>-->
+    <!--        <item>vista</item>-->
+    <!--        <item>tucson</item>-->
+    <!--        <item>yuma</item>-->
+    <!--    </string-array>-->
+
+    <!--4/50-->
+    <!--    <string-array name="Arkansas">-->
+    <!--        <item>Arkansas</item>-->
+    <!--        <item>fayetteville</item>-->
+    <!--        <item>fort</item>-->
+    <!--        <item>smith</item>-->
+    <!--        <item>jonesboro</item>-->
+    <!--        <item>little</item>-->
+    <!--        <item>rock</item>-->
+    <!--        <item>texarkana</item>-->
+    <!--    </string-array>-->
+
+    <string-array name="broadtypes">
+        <item>advertising</item>
+        <item>appliance and electronic repair</item>
+        <item>beauty</item>
+        <item>consultation</item>
+        <item>creative</item>
+        <item>delivery</item>
+        <item>education</item>
+        <item>entertainment</item>
+        <item>fabric care</item>
+        <item>finance</item>
+        <item>food service and catering</item>
+        <item>heath and wellness</item>
+        <item>home care</item>
+        <item>hospitality</item>
+        <item>legal, taxation and immigration</item>
+        <item>other</item>
+        <item>pet</item>
+        <item>promotion and advertising</item>
+        <item>real estate and banking </item>
+        <item>retail</item>
+        <item>tailor</item>
+        <item>travel</item>
+        <item>adult</item>
+    </string-array>
+
+    <string-array name="biztypes">
+        <item>Abbey</item>
+        <item>Aboriginal and Torres Strait Islander Organisation</item>
+        <item>Aboriginal Art Gallery</item>
+        <item>Abrasives Supplier</item>
+        <item>Abundant Life Church</item>
+        <item>Accountant</item>
+        <item>Accounting Firm</item>
+        <item>Accounting School</item>
+        <item>Accounting Software Company</item>
+        <item>Acoustical Consultant</item>
+        <item>Acrobatic Diving Pool</item>
+        <item>Acrylic Store</item>
+        <item>Acupuncture Clinic</item>
+        <item>Acupuncture School</item>
+        <item>Acupuncturist</item>
+        <item>Acura Dealer</item>
+        <item>Addiction Treatment Center</item>
+        <item>Administrative Attorney</item>
+        <item>Adoption Agency</item>
+        <item>Adult Day Care Center</item>
+        <item>Adult DVD Store</item>
+        <item>Adult Education School</item>
+        <item>Adult Entertainment Club</item>
+        <item>Adult Entertainment Store</item>
+        <item>Adult Foster Care Service</item>
+        <item>Adventure Sports</item>
+        <item>Adventure Sports Center</item>
+        <item>Advertising Agency</item>
+        <item>Commercial Photographer</item>
+        <item>Advertising Service</item>
+        <item>Aerated Drinks Supplier</item>
+        <item>Antenna Service</item>
+        <item>Aerial Photographer</item>
+        <item>Aerial Sports Center</item>
+        <item>Aero Dance Class</item>
+        <item>Aerobics Instructor</item>
+        <item>Aeroclub</item>
+        <item>Aeromodel Shop</item>
+        <item>Aeronautical Engineer</item>
+        <item>Aerospace Company</item>
+        <item>Afghani Restaurant</item>
+        <item>African Goods Store</item>
+        <item>African Restaurant</item>
+        <item>After School Program</item>
+        <item>Agenzia Entrate</item>
+        <item>Aggregate Supplier</item>
+        <item>Agistment Service</item>
+        <item>Agricultural Association</item>
+        <item>Agricultural Cooperative</item>
+        <item>Agricultural Engineer</item>
+        <item>Agricultural High School</item>
+        <item>Agricultural Machinery Manufacturer</item>
+        <item>Agricultural Organization</item>
+        <item>Agricultural Product Wholesaler</item>
+        <item>Agricultural Production</item>
+        <item>Agricultural Service</item>
+        <item>Agricultural Service Supply Agency</item>
+        <item>Agriculture Cooperative</item>
+        <item>Agrochemicals Supplier</item>
+        <item>Aikido Club</item>
+        <item>Aikido School</item>
+        <item>Air Compressor Repair Service</item>
+        <item>Air Compressor Supplier</item>
+        <item>Air Conditioning Contractor</item>
+        <item>Air Conditioning Repair Service</item>
+        <item>Air Conditioning Store</item>
+        <item>Air Conditioning System Supplier</item>
+        <item>Air Duct Cleaning Service</item>
+        <item>Air Filter Supplier</item>
+        <item>Air Force Base</item>
+        <item>Air Taxi</item>
+        <item>Airbrushing Service</item>
+        <item>Airbrushing Supply Store</item>
+        <item>Aircraft Maintenance Company</item>
+        <item>Aircraft Manufacturer</item>
+        <item>Aircraft Rental Service</item>
+        <item>Aircraft Supply Store</item>
+        <item>Airline</item>
+        <item>Airline Ticket Agency</item>
+        <item>Airplane</item>
+        <item>Airport</item>
+        <item>Airport Hotel</item>
+        <item>Airport Shuttle Service</item>
+        <item>Airsoft Supply Store</item>
+        <item>Airstrip</item>
+        <item>Alcohol Manufacturer</item>
+        <item>Alcohol Retail Monopoly</item>
+        <item>Alcoholic Beverage Wholesaler</item>
+        <item>Alcoholism Treatment Program</item>
+        <item>Allergist</item>
+        <item>Alliance Church</item>
+        <item>Alsace Restaurant</item>
+        <item>Alternative Fuel Station</item>
+        <item>Alternative Medicine Practitioner</item>
+        <item>Alternator Supplier</item>
+        <item>Aluminum Supplier</item>
+        <item>Aluminum Frames Supplier</item>
+        <item>Aluminum Welder</item>
+        <item>Aluminum Window</item>
+        <item>Amateur theater</item>
+        <item>Ambulance Service</item>
+        <item>American Restaurant</item>
+        <item>Amish Furniture Store</item>
+        <item>Ammunition Supplier</item>
+        <item>Amphitheater</item>
+        <item>Amusement Center</item>
+        <item>Amusement Machine Supplier</item>
+        <item>Amusement Park</item>
+        <item>Amusement Park Ride</item>
+        <item>Amusement Ride Supplier</item>
+        <item>An Hui Restaurant</item>
+        <item>Anago Restaurant</item>
+        <item>Andalusian Restaurant</item>
+        <item>Anesthesiologist</item>
+        <item>Angler Fish Restaurant</item>
+        <item>Anglican Church</item>
+        <item>Animal Control Service</item>
+        <item>Animal Hospital</item>
+        <item>Animal Park</item>
+        <item>Animal Protection Organization</item>
+        <item>Animal Rescue Service</item>
+        <item>Animal Shelter</item>
+        <item>Animation Studio</item>
+        <item>Anime Club</item>
+        <item>Anodizer</item>
+        <item>Antique Furniture Restoration Service</item>
+        <item>Antique Furniture Store</item>
+        <item>Antique Store</item>
+        <item>Apartment Building</item>
+        <item>Apartment Complex</item>
+        <item>Apartment Rental Agency</item>
+        <item>Apostolic Church</item>
+        <item>Appliance Parts Supplier</item>
+        <item>Appliance Rental Service</item>
+        <item>Appliance Repair Service</item>
+        <item>Appliance Store</item>
+        <item>Appliances Customer Service</item>
+        <item>Appraiser</item>
+        <item>Apprenticeship Center</item>
+        <item>Aquaculture Farm</item>
+        <item>Aquarium</item>
+        <item>Aquarium Shop</item>
+        <item>Aquatic Centre</item>
+        <item>Arboretum</item>
+        <item>Arborist and Tree Surgeon</item>
+        <item>Archaeological Museum</item>
+        <item>Archery Club</item>
+        <item>Archery Event</item>
+        <item>Archery Hall</item>
+        <item>Archery Range</item>
+        <item>Archery Store</item>
+        <item>Architect</item>
+        <item>Architects Association</item>
+        <item>Architectural and Engineering Model Maker</item>
+        <item>Architectural Designer</item>
+        <item>Architectural Salvage Store</item>
+        <item>Architecture Firm</item>
+        <item>Architecture School</item>
+        <item>Archive</item>
+        <item>Arena</item>
+        <item>Argentinian Restaurant</item>
+        <item>Armed Forces Association</item>
+        <item>Armenian Church</item>
+        <item>Armenian Restaurant</item>
+        <item>Army and Navy Surplus Shop</item>
+        <item>Army Barracks</item>
+        <item>Army Facility</item>
+        <item>Army Museum</item>
+        <item>Aromatherapy Class</item>
+        <item>Aromatherapy Service</item>
+        <item>Aromatherapy Supply Store</item>
+        <item>Art Cafe</item>
+        <item>Art Center</item>
+        <item>Art Dealer</item>
+        <item>Art Gallery</item>
+        <item>Art Handcraft</item>
+        <item>Art Museum</item>
+        <item>Art Restoration Service</item>
+        <item>Art School</item>
+        <item>Art Studio</item>
+        <item>Art Supply Store</item>
+        <item>Artificial Plant Supplier</item>
+        <item>Artist</item>
+        <item>Artistic Painting School</item>
+        <item>Arts Organization</item>
+        <item>Grill</item>
+        <item>Asbestos Testing Service</item>
+        <item>Ashram</item>
+        <item>Asian Fusion Restaurant</item>
+        <item>Asian Grocery Store</item>
+        <item>Asian Household Goods Store</item>
+        <item>Asian Massage Therapist</item>
+        <item>Asian Restaurant</item>
+        <item>Asphalt Contractor</item>
+        <item>Asphalt Mixing Plant</item>
+        <item>Assemblies of God Church</item>
+        <item>Assembly Room</item>
+        <item>Assistante Maternelle</item>
+        <item>Assisted Living Facility</item>
+        <item>Association or Organization</item>
+        <item>Astrologer</item>
+        <item>Asturian Restaurant</item>
+        <item>Athletic Club</item>
+        <item>Athletic Field</item>
+        <item>Athletic Park</item>
+        <item>Athletic Track</item>
+        <item>ATM</item>
+        <item>Attorney Referral Service</item>
+        <item>ATV Dealer</item>
+        <item>ATV Rental Service</item>
+        <item>ATV Repair Shop</item>
+        <item>Auction House</item>
+        <item>Audi Dealer</item>
+        <item>Audio Visual Consultant</item>
+        <item>Audio Visual Equipment Rental Service</item>
+        <item>Audio Visual Equipment Repair Service</item>
+        <item>Audio Visual Equipment Supplier</item>
+        <item>Audiologist</item>
+        <item>Auditor</item>
+        <item>Auditorium</item>
+        <item>Australian Goods Store</item>
+        <item>Australian Restaurant</item>
+        <item>Austrian Restaurant</item>
+        <item>Auto Accessories Wholesaler</item>
+        <item>Auto Air Conditioning Service</item>
+        <item>Auto Auction</item>
+        <item>Auto Body Parts Supplier</item>
+        <item>Auto Body Shop</item>
+        <item>Auto Broker</item>
+        <item>Auto Chemistry Shop</item>
+        <item>Auto Dent Removal Service</item>
+        <item>Auto Electrical Service</item>
+        <item>Auto Glass Shop</item>
+        <item>Auto Insurance Agency</item>
+        <item>Auto Machine Shop</item>
+        <item>Auto Market</item>
+        <item>Auto Parts Manufacturer</item>
+        <item>Auto Parts Market</item>
+        <item>Auto Parts Store</item>
+        <item>Auto Radiator Repair Service</item>
+        <item>Auto Repair Shop</item>
+        <item>Auto Restoration Service</item>
+        <item>Auto Spring Shop</item>
+        <item>Auto Sunroof Shop</item>
+        <item>Auto Tag Agency</item>
+        <item>Auto Tune Up Service</item>
+        <item>Auto Upholsterer</item>
+        <item>Auto Wrecker</item>
+        <item>Automation Company</item>
+        <item>Automobile Storage Facility</item>
+        <item>Aviation Consultant</item>
+        <item>Aviation Training Institute</item>
+        <item>Awning Supplier</item>
+        <item>Baby Clothing Store</item>
+        <item>Baby Store</item>
+        <item>Baby Swimming School</item>
+        <item>Childminder</item>
+        <item>Badminton Club</item>
+        <item>Badminton Complex</item>
+        <item>Badminton Court</item>
+        <item>Bag Shop</item>
+        <item>Bagel Shop</item>
+        <item>Bahá’í House of Worship</item>
+        <item>Bail Bonds Service</item>
+        <item>Bailiff</item>
+        <item>Bait Shop</item>
+        <item>Bakery</item>
+        <item>Bakery Equipment</item>
+        <item>Baking Supply Store</item>
+        <item>Ballet School</item>
+        <item>Ballet Theater</item>
+        <item>Balloon Artist</item>
+        <item>Balloon Ride Tour Agency</item>
+        <item>Balloon Store</item>
+        <item>Ballroom</item>
+        <item>Ballroom Dance Instructor</item>
+        <item>Band</item>
+        <item>Bangladeshi Restaurant</item>
+        <item>Bank</item>
+        <item>Bankruptcy Attorney</item>
+        <item>Bankruptcy Service</item>
+        <item>Banner Store</item>
+        <item>Banquet Hall</item>
+        <item>Baptist Church</item>
+        <item>Bar</item>
+        <item>Bar and Grill</item>
+        <item>Bar PMU</item>
+        <item>Bar Restaurant Furniture Store</item>
+        <item>Bar Stool Supplier</item>
+        <item>Bar Tabac</item>
+        <item>Barbecue Restaurant</item>
+        <item>Barbecue area</item>
+        <item>Barber School</item>
+        <item>Barber Shop</item>
+        <item>Barber Supply Store</item>
+        <item>Bark Supplier</item>
+        <item>Barrel Supplier</item>
+        <item>Barrister</item>
+        <item>Bartending School</item>
+        <item>Baseball</item>
+        <item>Baseball Club</item>
+        <item>Baseball Field</item>
+        <item>Baseball Goods Store</item>
+        <item>Basilica</item>
+        <item>Basket Supplier</item>
+        <item>Basketball Club</item>
+        <item>Basketball Court</item>
+        <item>Basketball Court Contractor</item>
+        <item>Basque Restaurant</item>
+        <item>Bathroom Remodeler</item>
+        <item>Bathroom Supply Store</item>
+        <item>Battery Manufacturer</item>
+        <item>Battery Store</item>
+        <item>Battery Wholesaler</item>
+        <item>Batting Cage Center</item>
+        <item>Bazar</item>
+        <item>BBQ Area</item>
+        <item>Beach Cleaning Service</item>
+        <item>Beach Clothing Store</item>
+        <item>Beach Entertainment Shop</item>
+        <item>Beach Pavillion</item>
+        <item>Beach Resort</item>
+        <item>Beach Volleyball Club</item>
+        <item>Beach Volleyball Court</item>
+        <item>Bead Store</item>
+        <item>Bead Wholesaler</item>
+        <item>Bearing Supplier</item>
+        <item>Beauty Product Supplier</item>
+        <item>Beauty Products Vending Machine</item>
+        <item>Beauty Products Wholesaler</item>
+        <item>Beauty Salon</item>
+        <item>Beauty School</item>
+        <item>Beauty Supply Store</item>
+        <item>Bed and Breakfast</item>
+        <item>Bed Shop</item>
+        <item>Bedding Store</item>
+        <item>Bedroom Furniture Store</item>
+        <item>Gyudon Restaurant</item>
+        <item>Beer Distributor</item>
+        <item>Beer Garden</item>
+        <item>Beer Hall</item>
+        <item>Beer Store</item>
+        <item>Belgian Restaurant</item>
+        <item>Belt Shop</item>
+        <item>Berry Restaurant</item>
+        <item>Betting Agency</item>
+        <item>Beverage Distributor</item>
+        <item>Bible Church</item>
+        <item>Bicycle Club</item>
+        <item>Bicycle Rack</item>
+        <item>Bicycle Rental Service</item>
+        <item>Bicycle Repair Shop</item>
+        <item>Bike Sharing Station</item>
+        <item>Bicycle Store</item>
+        <item>Bicycle Wholesale</item>
+        <item>Bikram Yoga Studio</item>
+        <item>Bilingual School</item>
+        <item>Billiards Supply Store</item>
+        <item>Bingo Hall</item>
+        <item>Biochemical Supplier</item>
+        <item>Biochemistry Lab</item>
+        <item>Biofeedback Therapist</item>
+        <item>Biotechnology Company</item>
+        <item>Biotechnology Engineer</item>
+        <item>Bird Control Service</item>
+        <item>Bird Shop</item>
+        <item>Bird Watching Area</item>
+        <item>Birth Center</item>
+        <item>Birth Certificate Service</item>
+        <item>Birth Control Center</item>
+        <item>Bistro</item>
+        <item>Blacksmith</item>
+        <item>Blast Cleaning Service</item>
+        <item>Blind School</item>
+        <item>Blinds Shop</item>
+        <item>Blood Bank</item>
+        <item>Blood Donation Center</item>
+        <item>Blood Testing Service</item>
+        <item>Blueprint Service</item>
+        <item>Blues Club</item>
+        <item>BMW Dealer</item>
+        <item>BMW Motorcycle Dealer</item>
+        <item>BMX Club</item>
+        <item>BMX Park</item>
+        <item>BMX Track</item>
+        <item>Board Game Club</item>
+        <item>Board of Education</item>
+        <item>Board of Trade</item>
+        <item>Boarding House</item>
+        <item>Boarding School</item>
+        <item>Boat Accessories Supplier</item>
+        <item>Boat Builders</item>
+        <item>Boat Club</item>
+        <item>Boat Cover Supplier</item>
+        <item>Boat Dealer</item>
+        <item>Boat Ramp</item>
+        <item>Boat Rental Service</item>
+        <item>Boat Repair Shop</item>
+        <item>Boat Storage Facility</item>
+        <item>Boat Tour Agency</item>
+        <item>Boat Trailer Dealer</item>
+        <item>Boatel</item>
+        <item>Boating Instructor</item>
+        <item>Bocce Ball Court</item>
+        <item>Body Piercing Shop</item>
+        <item>Body Shaping Class</item>
+        <item>Boiler Manufacturer</item>
+        <item>Boiler Supplier</item>
+        <item>Bonesetting House</item>
+        <item>Bonsai Plant Supplier</item>
+        <item>Book Publisher</item>
+        <item>Book Store</item>
+        <item>Bookbinder</item>
+        <item>Bookkeeping Service</item>
+        <item>Bookmaker</item>
+        <item>Books Wholesaler</item>
+        <item>Boot Camp</item>
+        <item>Boot Repair Shop</item>
+        <item>Boot Store</item>
+        <item>Border Crossing Station</item>
+        <item>Border Guard</item>
+        <item>Botanical Garden</item>
+        <item>Bottle and Can Redemption Center</item>
+        <item>Bottled Water Supplier</item>
+        <item>Bouncy Castle Hire</item>
+        <item>Boutique</item>
+        <item>Boutique Hotel</item>
+        <item>Bowling Alley</item>
+        <item>Bowling Club</item>
+        <item>Bowling Supply Shop</item>
+        <item>Box Lunch Supplier</item>
+        <item>Boxing Club</item>
+        <item>Boxing Gym</item>
+        <item>Boxing Ring</item>
+        <item>Boys’ High School</item>
+        <item>BPO Company</item>
+        <item>BPO Placement Agency</item>
+        <item>Brake Shop</item>
+        <item>Brazilian Restaurant</item>
+        <item>Breakfast Restaurant</item>
+        <item>Brewery</item>
+        <item>Brewing Supply Store</item>
+        <item>Brewpub</item>
+        <item>Brick Manufacturer</item>
+        <item>Bricklayer</item>
+        <item>Bridal Shop</item>
+        <item>Bridge</item>
+        <item>Bridge Club</item>
+        <item>British Restaurant</item>
+        <item>Brunch Restaurant</item>
+        <item>Bubble Tea</item>
+        <item>Buddhist Supplies Store</item>
+        <item>Buddhist Temple</item>
+        <item>Budget Hotel</item>
+        <item>Budget Japanese Inn</item>
+        <item>Buffet Restaurant</item>
+        <item>Buick Dealer</item>
+        <item>Building Consultant</item>
+        <item>Building Design Company</item>
+        <item>Building Equipment Hire Service</item>
+        <item>Building Firm</item>
+        <item>Building Inspector</item>
+        <item>Building Materials Market</item>
+        <item>Building Materials Store</item>
+        <item>Building Materials Supplier</item>
+        <item>Building Restoration Service</item>
+        <item>Building Society</item>
+        <item>Chartered Surveyor</item>
+        <item>Bulgarian Restaurant</item>
+        <item>Bullring</item>
+        <item>Bungee Jumping Center</item>
+        <item>Burglar Alarm Store</item>
+        <item>Burmese Restaurant</item>
+        <item>Burrito Restaurant</item>
+        <item>Bus and Coach Company</item>
+        <item>Bus Charter</item>
+        <item>Bus Company</item>
+        <item>Bus Ticket Agency</item>
+        <item>Bus Tour Agency</item>
+        <item>Business Administration Service</item>
+        <item>Business Broker</item>
+        <item>Business Center</item>
+        <item>Business Development Service</item>
+        <item>Business Hotel</item>
+        <item>Business Management Consultant</item>
+        <item>Business Networking Company</item>
+        <item>Business Park</item>
+        <item>Business School</item>
+        <item>Business to Business Service</item>
+        <item>Butane Gas Supplier</item>
+        <item>Butcher Shop</item>
+        <item>Butcher Shop Deli</item>
+        <item>Butsudan Store</item>
+        <item>Cabaret Club</item>
+        <item>Cabin Rental Agency</item>
+        <item>Cabinet Maker</item>
+        <item>Cabinet Store</item>
+        <item>Cable Company</item>
+        <item>Cadillac Dealer</item>
+        <item>Cafe</item>
+        <item>Cafeteria</item>
+        <item>Cajun Restaurant</item>
+        <item>Cake Decorating Equipment Shop</item>
+        <item>Cake Shop</item>
+        <item>Californian Restaurant</item>
+        <item>Call Center</item>
+        <item>Call Shop</item>
+        <item>Calligraphy Lesson</item>
+        <item>Calvary Chapel Church</item>
+        <item>Cambodian Restaurant</item>
+        <item>Camera Repair Shop</item>
+        <item>Camera Store</item>
+        <item>Camp</item>
+        <item>Camper Shell Supplier</item>
+        <item>Campground</item>
+        <item>Camping Farm</item>
+        <item>Camping Store</item>
+        <item>Pacific Northwest Restaurant (Canada)</item>
+        <item>Canadian Restaurant</item>
+        <item>Cancer Treatment Center</item>
+        <item>Candle Store</item>
+        <item>Candy Store</item>
+        <item>Cane Furniture Store</item>
+        <item>Cannabis store</item>
+        <item>Cannery</item>
+        <item>Canoe and Kayak Club</item>
+        <item>Canoe and Kayak Rental Service</item>
+        <item>Canoe and Kayak Store</item>
+        <item>Canoe and Kayak Tour Agency</item>
+        <item>Canoeing Area</item>
+        <item>Cantabrian Restaurant</item>
+        <item>Cantonese Restaurant</item>
+        <item>Cape Verdean Restaurant</item>
+        <item>Capital</item>
+        <item>Capoeira School</item>
+        <item>Capsule Hotel</item>
+        <item>Car Accessories Store</item>
+        <item>Car Alarm Supplier</item>
+        <item>Car Battery Store</item>
+        <item>Car Dealer</item>
+        <item>Car Detailing Service</item>
+        <item>Car Factory</item>
+        <item>Car Finance and Loan Company</item>
+        <item>Car Inspection Station</item>
+        <item>Car Leasing Service</item>
+        <item>Car Manufacturer</item>
+        <item>Car Racing Track</item>
+        <item>Car Rental Agency</item>
+        <item>Car Repair and Maintenance</item>
+        <item>Car Security System Installer</item>
+        <item>Car Service</item>
+        <item>Car Sharing Location</item>
+        <item>Car Stereo Store</item>
+        <item>Car Wash</item>
+        <item>Carabinieri Police</item>
+        <item>Cardiologist</item>
+        <item>Career Guidance Service</item>
+        <item>Caribbean Restaurant</item>
+        <item>Carnival Club</item>
+        <item>Carpenter</item>
+        <item>Carpet Cleaning Service</item>
+        <item>Carpet Installer</item>
+        <item>Carpet Manufacturer</item>
+        <item>Carpet Store</item>
+        <item>Carpet Wholesaler</item>
+        <item>Carpool</item>
+        <item>Carport and Pergola Builder</item>
+        <item>Carriage Ride Service</item>
+        <item>Carvery</item>
+        <item>Cash and Carry Wholesaler</item>
+        <item>Casino</item>
+        <item>Casket Service</item>
+        <item>Castilian Restaurant</item>
+        <item>Castle</item>
+        <item>Castle Hotel</item>
+        <item>Syokudo and Teishoku Restaurant</item>
+        <item>Conveyor Belt Sushi Restaurant</item>
+        <item>Cat Hostel</item>
+        <item>Catalonian Restaurant</item>
+        <item>Catering Food and Drink Supplier</item>
+        <item>Caterer</item>
+        <item>Cathedral</item>
+        <item>Catholic Cathedral</item>
+        <item>Catholic Church</item>
+        <item>Catholic School</item>
+        <item>Cattery</item>
+        <item>Cattle Farm</item>
+        <item>Cattle Market</item>
+        <item>CBSE School</item>
+        <item>CD Store</item>
+        <item>Ceiling Supplier</item>
+        <item>Cell Phone Accessory Store</item>
+        <item>Cell Phone Store</item>
+        <item>Cement Manufacturer</item>
+        <item>Cement Supplier</item>
+        <item>Cemetery</item>
+        <item>Central American Restaurant</item>
+        <item>Central Authority</item>
+        <item>Central Bank</item>
+        <item>Ceramic Manufacturer</item>
+        <item>Ceramics Wholesaler</item>
+        <item>Certification Agency</item>
+        <item>Certified Public Accountant</item>
+        <item>Chalet</item>
+        <item>Chamber of Agriculture</item>
+        <item>Chamber of Commerce</item>
+        <item>Chamber of Handicrafts</item>
+        <item>Champon Noodle Restaurant</item>
+        <item>Chanko Restaurant</item>
+        <item>Chapel</item>
+        <item>Charcuterie</item>
+        <item>Charity</item>
+        <item>Charter School</item>
+        <item>Chartered Accountant</item>
+        <item>Check Cashing Service</item>
+        <item>Cheese Manufacturer</item>
+        <item>Cheese Shop</item>
+        <item>Cheesesteak Restaurant</item>
+        <item>Chemical Engineer</item>
+        <item>Chemical Exporter</item>
+        <item>Chemical Manufacturer</item>
+        <item>Chemical Plant</item>
+        <item>Chemical Wholesaler</item>
+        <item>Chemistry Faculty</item>
+        <item>Chemistry Lab</item>
+        <item>Chesapeake Restaurant</item>
+        <item>Chess and Card Club</item>
+        <item>Chess Club</item>
+        <item>Chess Instructor</item>
+        <item>Chevrolet Dealer</item>
+        <item>Chicken Hatchery</item>
+        <item>Chicken Restaurant</item>
+        <item>Chicken Shop</item>
+        <item>Chicken Wings Restaurant</item>
+        <item>Child Care Agency</item>
+        <item>Child Health Care Centre</item>
+        <item>Child Psychologist</item>
+        <item>Childbirth Class</item>
+        <item>Children’s Amusement Center</item>
+        <item>Children Hall</item>
+        <item>Children Policlinic</item>
+        <item>Childrens Book Store</item>
+        <item>Childrens Cafe</item>
+        <item>Children’s Clothing Store</item>
+        <item>Childrens Club</item>
+        <item>Childrens Farm</item>
+        <item>Children’s Furniture Store</item>
+        <item>Childrens Home</item>
+        <item>Children’s Hospital</item>
+        <item>Childrens Library</item>
+        <item>Children’s Museum</item>
+        <item>Childrens Party Buffet</item>
+        <item>Children’s Party Service</item>
+        <item>Childrens Store</item>
+        <item>Childrens Theater</item>
+        <item>Chilean Restaurant</item>
+        <item>Chimney Services</item>
+        <item>Chimney Sweep</item>
+        <item>Chinaware Store</item>
+        <item>Chinese Language Instructor</item>
+        <item>Chinese Language School</item>
+        <item>Chinese Medical Hospital</item>
+        <item>Chinese Medicine Clinic</item>
+        <item>Chinese Medicine Store</item>
+        <item>Chinese Noodle Restaurant</item>
+        <item>Chinese Pastry</item>
+        <item>Chinese Restaurant</item>
+        <item>Chinese Supermarket</item>
+        <item>Chinese Takeaway</item>
+        <item>Chinese Tea House</item>
+        <item>Chiropractor</item>
+        <item>Chocolate Artisan</item>
+        <item>Chocolate Cafe</item>
+        <item>Chocolate Factory</item>
+        <item>Chocolate Shop</item>
+        <item>Choir</item>
+        <item>Chophouse Restaurant</item>
+        <item>Christian Book Store</item>
+        <item>Christian Church</item>
+        <item>Christian College</item>
+        <item>Christmas Market</item>
+        <item>Christmas Store</item>
+        <item>Christmas Tree Farm</item>
+        <item>Chrysler Dealer</item>
+        <item>Church</item>
+        <item>Church of Christ</item>
+        <item>Church of Jesus Christ of Latter-day Saints</item>
+        <item>Church of the Nazarene</item>
+        <item>Church Supply Store</item>
+        <item>Churreria</item>
+        <item>Cider Bar</item>
+        <item>Cider Mill</item>
+        <item>Cigar Shop</item>
+        <item>Cinema Equipment Supplier</item>
+        <item>Circular Distribution Service</item>
+        <item>Circus</item>
+        <item>Citizen Information Bureau</item>
+        <item>Citizens Advice Bureau</item>
+        <item>City Administration</item>
+        <item>City Clerk’s Office</item>
+        <item>City Courthouse</item>
+        <item>City Department of Environment</item>
+        <item>City Department of Public Safety</item>
+        <item>City Department of Transportation</item>
+        <item>City District Office</item>
+        <item>City Employment Department</item>
+        <item>City Government Office</item>
+        <item>City or Town Hall</item>
+        <item>City Hospital</item>
+        <item>City Park</item>
+        <item>City pillar shrine</item>
+        <item>City Tax Office</item>
+        <item>Civic Center</item>
+        <item>Civil Defence</item>
+        <item>Civil Engineer</item>
+        <item>Civil Engineering Company</item>
+        <item>Civil Examinations Academy</item>
+        <item>Civil Law Attorney</item>
+        <item>Civil Police</item>
+        <item>Civil Registry</item>
+        <item>Class</item>
+        <item>Classified Ads Newspaper Publisher</item>
+        <item>Cleaners</item>
+        <item>Cleaning Products Supplier</item>
+        <item>Cleaning Service</item>
+        <item>Clergyman</item>
+        <item>Clock Repair Service</item>
+        <item>Clock Watch Maker</item>
+        <item>Closed Circuit Television</item>
+        <item>Clothes and Fabric Manufacturer</item>
+        <item>Clothes and Fabric Wholesaler</item>
+        <item>Clothes Market</item>
+        <item>Clothing Alteration Service</item>
+        <item>Clothing Store</item>
+        <item>Clothing Supplier</item>
+        <item>Clothing Wholesale Market Place</item>
+        <item>Clothing Wholesaler</item>
+        <item>Club</item>
+        <item>CNG Fittment Center</item>
+        <item>Coaching Center</item>
+        <item>Coal Exporter</item>
+        <item>Coal Supplier</item>
+        <item>Coalfield</item>
+        <item>Coast Guard Station</item>
+        <item>Coat Wholesaler</item>
+        <item>Cocktail Bar</item>
+        <item>Co-ed School</item>
+        <item>Coffee Machine Supplier</item>
+        <item>Coffee Roasters</item>
+        <item>Coffee Shop</item>
+        <item>Coffee Store</item>
+        <item>Coffee Vending Machine</item>
+        <item>Coffee Wholesaler</item>
+        <item>Coffin Supplier</item>
+        <item>Coin Dealer</item>
+        <item>Coin Operated Laundry Equipment Supplier</item>
+        <item>Coin Operated Locker</item>
+        <item>Cold Cut Store</item>
+        <item>Cold Noodle Restaurant</item>
+        <item>Cold Storage Facility</item>
+        <item>Collectibles Store</item>
+        <item>College</item>
+        <item>College of Agriculture</item>
+        <item>Colombian Restaurant</item>
+        <item>Comedy Club</item>
+        <item>Comic Book Store</item>
+        <item>Comic Cafe</item>
+        <item>Commercial Agent</item>
+        <item>Commercial Cleaning Service</item>
+        <item>Commercial Printer</item>
+        <item>Commercial Real Estate Agency</item>
+        <item>Commercial Real Estate Inspector</item>
+        <item>Commercial Refrigeration</item>
+        <item>Commercial Refrigerator Supplier</item>
+        <item>Commissioner for Oaths</item>
+        <item>Communications Central</item>
+        <item>Community Center</item>
+        <item>Community College</item>
+        <item>Community Garden</item>
+        <item>Community Health Centre</item>
+        <item>Community School</item>
+        <item>Company Registry</item>
+        <item>Computer Accessories Store</item>
+        <item>Computer Club</item>
+        <item>Computer Consultant</item>
+        <item>Computer Desk Store</item>
+        <item>Computer Hardware Manufacturer</item>
+        <item>Computer Networking Center</item>
+        <item>Computer Repair Service</item>
+        <item>Computer Security Service</item>
+        <item>Computer Service</item>
+        <item>Computer Software Store</item>
+        <item>Computer Store</item>
+        <item>Computer Support and Services</item>
+        <item>Computer Training School</item>
+        <item>Computer Wholesaler</item>
+        <item>Concert Hall</item>
+        <item>Concrete Contractor</item>
+        <item>Concrete Factory</item>
+        <item>Concrete Metal Framework Supplier</item>
+        <item>Concrete Product Supplier</item>
+        <item>Condiments Supplier</item>
+        <item>Condominium Complex</item>
+        <item>Condominium Rental Agency</item>
+        <item>Confectionery</item>
+        <item>Confectionery Wholesaler</item>
+        <item>Conference Center</item>
+        <item>Conference Hotel</item>
+        <item>Congregation</item>
+        <item>Conservation Department</item>
+        <item>Conservative Club</item>
+        <item>Conservative Synagogue</item>
+        <item>Conservatory Construction Contractor</item>
+        <item>Conservatory of Music</item>
+        <item>Conservatory Supply and Installation</item>
+        <item>Consignment Shop</item>
+        <item>Construction and Maintenance Office</item>
+        <item>Construction Company</item>
+        <item>Construction Equipment Supplier</item>
+        <item>Construction Machine Dealer</item>
+        <item>Construction Machine Rental Service</item>
+        <item>Construction Material Wholesaler</item>
+        <item>Consultant</item>
+        <item>Consumer Advice Center</item>
+        <item>Contact Lenses Supplier</item>
+        <item>Container Service</item>
+        <item>Container Supplier</item>
+        <item>Container Terminal</item>
+        <item>Containers Supplier</item>
+        <item>Contemporary Louisiana Restaurant</item>
+        <item>Continental Restaurant</item>
+        <item>Contractor</item>
+        <item>Convenience Store</item>
+        <item>Convenience Stores Organization</item>
+        <item>Convention Center</item>
+        <item>Convention Information Bureau</item>
+        <item>Conveyancer</item>
+        <item>Cookie Shop</item>
+        <item>Cooking Class</item>
+        <item>Cooking School</item>
+        <item>Cooling Plant</item>
+        <item>Copier Repair Service</item>
+        <item>Copper Supplier</item>
+        <item>Coppersmith</item>
+        <item>Copy Shop</item>
+        <item>Copying Supply Store</item>
+        <item>Corporate Campus</item>
+        <item>Corporate Entertainment Service</item>
+        <item>Corporate Gift Supplier</item>
+        <item>Corporate Office</item>
+        <item>Correctional Services Department</item>
+        <item>Cosmetic Dentist</item>
+        <item>Cosmetic Products Manufacturer</item>
+        <item>Cosmetics and Parfumes Supplier</item>
+        <item>Cosmetics Industry</item>
+        <item>Cosmetics Store</item>
+        <item>Cosmetics Wholesaler</item>
+        <item>Cosplay Cafe</item>
+        <item>Costa Rican Restaurant</item>
+        <item>Costume Jewelry Shop</item>
+        <item>Costume Rental Service</item>
+        <item>Costume Store</item>
+        <item>Cottage</item>
+        <item>Cottage Rental</item>
+        <item>Cottage Village</item>
+        <item>Cotton Exporter</item>
+        <item>Cotton Mill</item>
+        <item>Cotton Supplier</item>
+        <item>Council</item>
+        <item>Counselor</item>
+        <item>Countertop Store</item>
+        <item>Country Club</item>
+        <item>Country Food Restaurant</item>
+        <item>Country House</item>
+        <item>Country Park</item>
+        <item>County Government Office</item>
+        <item>Courier Service</item>
+        <item>Cours de Capoeira</item>
+        <item>Cours de Surf</item>
+        <item>Court Executive Officer</item>
+        <item>Court Reporter</item>
+        <item>Couscous Restaurant</item>
+        <item>Couture Store</item>
+        <item>Coworking Space</item>
+        <item>Crab House</item>
+        <item>Craft Centre</item>
+        <item>Craft Store</item>
+        <item>Cramming School</item>
+        <item>Crane Dealer</item>
+        <item>Crane Rental Agency</item>
+        <item>Crane Service</item>
+        <item>Craniosacral Therapy</item>
+        <item>Creche</item>
+        <item>Credit Counseling Service</item>
+        <item>Credit Reporting Agency</item>
+        <item>Credit Union</item>
+        <item>Cremation Service</item>
+        <item>Creole Restaurant</item>
+        <item>Crêperie</item>
+        <item>Cricket Club</item>
+        <item>Cricket Ground</item>
+        <item>Cricket Shop</item>
+        <item>Crime Victim Service</item>
+        <item>Criminal Justice Attorney</item>
+        <item>Croatian Restaurant</item>
+        <item>Crop Grower</item>
+        <item>Croquet Club</item>
+        <item>Cruise Agency</item>
+        <item>Cruise Line Company</item>
+        <item>Cruise Terminal</item>
+        <item>Crushed Stone Supplier</item>
+        <item>Cuban Restaurant</item>
+        <item>Culinary School</item>
+        <item>Cultural Association</item>
+        <item>Cultural Center</item>
+        <item>Cupcake Shop</item>
+        <item>Cured Ham Bar</item>
+        <item>Cured Ham Store</item>
+        <item>Cured Ham Warehouse</item>
+        <item>Curling Club</item>
+        <item>Curling Hall</item>
+        <item>Currency Exchange Service</item>
+        <item>Curtain and Upholstery Cleaning Service</item>
+        <item>Curtain Store</item>
+        <item>Curtain Supplier and Maker</item>
+        <item>Custom Confiscated Goods Store</item>
+        <item>Custom Home Builder</item>
+        <item>Custom Label Printer</item>
+        <item>Custom T-shirt Store</item>
+        <item>Custom Tailor</item>
+        <item>Customs Broker</item>
+        <item>Customs Consultant</item>
+        <item>Customs Department</item>
+        <item>Customs Office</item>
+        <item>Customs Warehouse</item>
+        <item>Cutlery Store</item>
+        <item>Cycling Park</item>
+        <item>Czech Restaurant</item>
+        <item>Dairy</item>
+        <item>Dairy Farm</item>
+        <item>Dairy Farm Equipment Supplier</item>
+        <item>Dairy Store</item>
+        <item>Dairy Supplier</item>
+        <item>Dan Dan Noodle Restaurant</item>
+        <item>Dance Club</item>
+        <item>Dance Company</item>
+        <item>Dance Conservatory</item>
+        <item>Dance Hall</item>
+        <item>Dance Pavillion</item>
+        <item>Dance Restaurant</item>
+        <item>Dance School</item>
+        <item>Dance Store</item>
+        <item>Danish Restaurant</item>
+        <item>Dart Bar</item>
+        <item>Dart Supply Store</item>
+        <item>Data Entry Service</item>
+        <item>Data Recovery Service</item>
+        <item>Database Management Company</item>
+        <item>Dating Service</item>
+        <item>Day Care Center</item>
+        <item>Day Spa</item>
+        <item>Deaf Church</item>
+        <item>Deaf School</item>
+        <item>Deaf Service</item>
+        <item>Debris Removal Service</item>
+        <item>Debt Collecting</item>
+        <item>Debt Collection Agency</item>
+        <item>Decal Supplier</item>
+        <item>Deck Builder</item>
+        <item>Deli</item>
+        <item>Delivery Chinese Restaurant</item>
+        <item>Delivery Service</item>
+        <item>Demolition Contractor</item>
+        <item>Jeans Shop</item>
+        <item>Dental Clinic</item>
+        <item>Dental Hygienist</item>
+        <item>Dental Implants Periodontist</item>
+        <item>Dental Insurance Agency</item>
+        <item>Dental Laboratory</item>
+        <item>Dental Radiology</item>
+        <item>Dental School</item>
+        <item>Dental Supply Store</item>
+        <item>Dentist</item>
+        <item>Denture Care Center</item>
+        <item>Department for Regional Development</item>
+        <item>Department of Education</item>
+        <item>Department of Finance</item>
+        <item>Department of Housing</item>
+        <item>Department of Motor Vehicles</item>
+        <item>Department of Public Safety</item>
+        <item>Department of Social Services</item>
+        <item>Department of Transportation</item>
+        <item>Department Store</item>
+        <item>Dept of City Treasure</item>
+        <item>Dept of State Treasure</item>
+        <item>Dermatologist</item>
+        <item>Desalination Plant</item>
+        <item>Design Agency</item>
+        <item>Design Engineer</item>
+        <item>Design Institute</item>
+        <item>Desktop Publishing Service</item>
+        <item>Sweets and Dessert Buffet</item>
+        <item>Dessert Restaurant</item>
+        <item>Dessert Shop</item>
+        <item>Detective</item>
+        <item>Detention Center</item>
+        <item>Diabetes Center</item>
+        <item>Diabetes Equipment Supplier</item>
+        <item>Diabetologist</item>
+        <item>Diagnostic Center</item>
+        <item>Dialysis Center</item>
+        <item>Diamond Buyer</item>
+        <item>Diamond Dealer</item>
+        <item>Diaper Service</item>
+        <item>Diesel Engine Dealer</item>
+        <item>Diesel Engine Repair Service</item>
+        <item>Diesel Fuel Supplier</item>
+        <item>Digital Printer</item>
+        <item>Digital Printing Service</item>
+        <item>Dim Sum Restaurant</item>
+        <item>Diner</item>
+        <item>Dinner Theater</item>
+        <item>Direct Mail Advertising</item>
+        <item>Dirt Supplier</item>
+        <item>Disability Equipment Supplier</item>
+        <item>Disability Services and Support Organisation</item>
+        <item>Disabled Sports Center</item>
+        <item>Disc Golf Course</item>
+        <item>Disciples of Christ Church</item>
+        <item>Disco Club</item>
+        <item>Discount Store</item>
+        <item>Discount Supermarket</item>
+        <item>Display Home Centre</item>
+        <item>Display Stand Manufacturer</item>
+        <item>Disposable Tableware Supplier</item>
+        <item>Distance Learning Center</item>
+        <item>Distillery</item>
+        <item>Distribution Service</item>
+        <item>District Attorney</item>
+        <item>District Council</item>
+        <item>District Government Office</item>
+        <item>District Justice</item>
+        <item>District Office</item>
+        <item>Dive Club</item>
+        <item>Dive Shop</item>
+        <item>Diving Center</item>
+        <item>Diving Contractor</item>
+        <item>Divorce Lawyer</item>
+        <item>Divorce Service</item>
+        <item>DJ Service</item>
+        <item>DJ Supply Store</item>
+        <item>Do-it-Yourself Shop</item>
+        <item>Dock Builder</item>
+        <item>Doctor</item>
+        <item>Dodge Dealer</item>
+        <item>Dog Breeder</item>
+        <item>Dog Cafe</item>
+        <item>Dog Day Care Center</item>
+        <item>Dog Hostel</item>
+        <item>Dog Park</item>
+        <item>Dog Sitter</item>
+        <item>Dog Trainer</item>
+        <item>Dog Walker</item>
+        <item>Dogsled Ride Service</item>
+        <item>Dojo Restaurant</item>
+        <item>Doll Restoration Service</item>
+        <item>Doll Store</item>
+        <item>Dollar Store</item>
+        <item>Domestic Abuse Treatment Center</item>
+        <item>Domestic Airport</item>
+        <item>Dominican Restaurant</item>
+        <item>Donations Center</item>
+        <item>Donut Shop</item>
+        <item>Door Manufacturer</item>
+        <item>Door Shop</item>
+        <item>Door Supplier</item>
+        <item>Door Warehouse</item>
+        <item>Double Glazing Installer</item>
+        <item>Down Home Cooking Restaurant</item>
+        <item>Drafting Equipment Supplier</item>
+        <item>Drafting Service</item>
+        <item>Drainage Service</item>
+        <item>Drama School</item>
+        <item>Drama Theater</item>
+        <item>Drawing Lessons</item>
+        <item>Dress and Tuxedo Rental Service</item>
+        <item>Dress Store</item>
+        <item>Dressmaker</item>
+        <item>Dried Flower Shop</item>
+        <item>Dried Seafood Store</item>
+        <item>Drilling Contractor</item>
+        <item>Drilling Equipment Supplier</item>
+        <item>Drinking Water Fountain</item>
+        <item>Drive-in Movie Theater</item>
+        <item>Driver and Vehicle Licensing Agency</item>
+        <item>Driver’s License Office</item>
+        <item>Drivers License Training School</item>
+        <item>Driveshaft Shop</item>
+        <item>Driving School</item>
+        <item>Driving Test Centre</item>
+        <item>Drug Addiction Treatment Center</item>
+        <item>Drug Testing Service</item>
+        <item>Drug Store</item>
+        <item>Drum School</item>
+        <item>Drum Store</item>
+        <item>Dry Cleaner</item>
+        <item>Dry Fruit Store</item>
+        <item>Dry Ice Supplier</item>
+        <item>Dry Wall Contractor</item>
+        <item>Dry Wall Supply Store</item>
+        <item>Ducati Dealer</item>
+        <item>Dude Ranch</item>
+        <item>Dump Truck Dealer</item>
+        <item>Dump Truck Service</item>
+        <item>Dumpling Restaurant</item>
+        <item>Dutch Restaurant</item>
+        <item>Duty Free Store</item>
+        <item>DVD Store</item>
+        <item>Dye Store</item>
+        <item>Dyeworks</item>
+        <item>Dynamometer Supplier</item>
+        <item>E Commerce Agency</item>
+        <item>E-commerce Service</item>
+        <item>Ear Piercing Service</item>
+        <item>Earth Works Company</item>
+        <item>East African Restaurant</item>
+        <item>Eastern European Restaurant</item>
+        <item>Eastern Orthodox Church</item>
+        <item>Eating Disorder Treatment Center</item>
+        <item>Eclectic Restaurant</item>
+        <item>Ecological Park</item>
+        <item>Ecologists Association</item>
+        <item>Economic Consultant</item>
+        <item>Economic Development Agency</item>
+        <item>Ecuadorian Restaurant</item>
+        <item>Education Center</item>
+        <item>Educational Consultant</item>
+        <item>Educational Institution</item>
+        <item>Educational Supply Store</item>
+        <item>Educational Testing Service</item>
+        <item>Eftpos Equipment Supplier</item>
+        <item>Egg Supplier</item>
+        <item>Egyptian Restaurant</item>
+        <item>Elder Law Attorney</item>
+        <item>Electric Motor Repair Shop</item>
+        <item>Electric Motor Store</item>
+        <item>Electric Utility Company</item>
+        <item>Electric Utility Manufacturer</item>
+        <item>Electric Vehicle Charging Station</item>
+        <item>Electrical Appliance Wholesaler</item>
+        <item>Electrical Engineer</item>
+        <item>Electrical Equipment Supplier</item>
+        <item>Electrical Installation Service</item>
+        <item>Electrical Repair Shop</item>
+        <item>Electrical Substation</item>
+        <item>Electrical Supply Store</item>
+        <item>Electrical Wholesaler</item>
+        <item>Electrician</item>
+        <item>Electrolysis Hair Removal Service</item>
+        <item>Electronic Engineer</item>
+        <item>Electronic Parts Supplier</item>
+        <item>Electronics Accessories Wholesaler</item>
+        <item>Electronics Company</item>
+        <item>Electronics Engineer</item>
+        <item>Electronics Exporter</item>
+        <item>Electronics Hire Shop</item>
+        <item>Electronics Manufacturer</item>
+        <item>Electronics Repair Shop</item>
+        <item>Electronics Store</item>
+        <item>Electronics Vending Machine</item>
+        <item>Electronics Wholesaler</item>
+        <item>Elementary School</item>
+        <item>Elevator Manufacturer</item>
+        <item>Elevator Service</item>
+        <item>Embassy</item>
+        <item>Embossing Service</item>
+        <item>Embroidery Service</item>
+        <item>Embroidery Shop</item>
+        <item>Emergency Call Booth</item>
+        <item>Emergency Care Physician</item>
+        <item>Emergency Care Service</item>
+        <item>Emergency Dental Service</item>
+        <item>Emergency Locksmith Service</item>
+        <item>Emergency Management Ministry</item>
+        <item>Emergency Room</item>
+        <item>Emergency Training</item>
+        <item>Emergency Training School</item>
+        <item>Emergency Veterinarian Service</item>
+        <item>Employment Agency</item>
+        <item>Employment Attorney</item>
+        <item>Employment Center</item>
+        <item>Employment Consultant</item>
+        <item>Employment Search Service</item>
+        <item>Endocrinologist</item>
+        <item>Endodontist</item>
+        <item>Endoscopist</item>
+        <item>Energy Equipment and Solutions</item>
+        <item>Energy Supplier</item>
+        <item>Engine Rebuilding Service</item>
+        <item>Engineer</item>
+        <item>Engineering Consultant</item>
+        <item>Engineering School</item>
+        <item>English Language Camp</item>
+        <item>English Language Instructor</item>
+        <item>English Language School</item>
+        <item>English Restaurant</item>
+        <item>Engraver</item>
+        <item>Entertainer</item>
+        <item>Entertainment Agency</item>
+        <item>Envelope Supplier</item>
+        <item>Environment Office</item>
+        <item>Environment Renewable Natural Resources</item>
+        <item>Environmental Consultant</item>
+        <item>Environmental Engineer</item>
+        <item>Environmental Health Service</item>
+        <item>Environmental Organization</item>
+        <item>Environmental Protection Organization</item>
+        <item>Episcopal Church</item>
+        <item>Equestrian Club</item>
+        <item>Equestrian Facility</item>
+        <item>Equestrian Resort</item>
+        <item>Equestrian Store</item>
+        <item>Equipment Exporter</item>
+        <item>Equipment Importer</item>
+        <item>Equipment Rental Agency</item>
+        <item>Equipment Supplier</item>
+        <item>Eritrean Restaurant</item>
+        <item>Erotic Massage</item>
+        <item>Escort</item>
+        <item>Escort service</item>
+        <item>Escrow Service</item>
+        <item>Espresso Bar</item>
+        <item>Estate Appraiser</item>
+        <item>Estate Liquidator</item>
+        <item>Estate Planning Attorney</item>
+        <item>Ethiopian Restaurant</item>
+        <item>Ethnic Restaurant</item>
+        <item>Ethnographic Museum</item>
+        <item>European Institution</item>
+        <item>European Restaurant</item>
+        <item>Evangelical Church</item>
+        <item>Evening Dress Rental Service</item>
+        <item>Evening School</item>
+        <item>Event Management Company</item>
+        <item>Event Planner</item>
+        <item>Event Technology Service</item>
+        <item>Event Ticket Seller</item>
+        <item>Event Venue</item>
+        <item>Excavating Contractor</item>
+        <item>Executive Search Firm</item>
+        <item>Executive Suite Rental Agency</item>
+        <item>Executor</item>
+        <item>Exhibit</item>
+        <item>Exhibition and Trade Centre</item>
+        <item>Exhibition Planner</item>
+        <item>Exporter</item>
+        <item>Extended Stay Hotel</item>
+        <item>Eye Care Center</item>
+        <item>Fabric Product Manufacturer</item>
+        <item>Fabric Store</item>
+        <item>Fabric Wholesaler</item>
+        <item>Fabrication Engineer</item>
+        <item>Facial Spa</item>
+        <item>Factory Equipment Supplier</item>
+        <item>Faculty of Arts</item>
+        <item>Faculty of Law</item>
+        <item>Faculty of Pharmacy</item>
+        <item>Faculty of Psychology</item>
+        <item>Faculty of Science</item>
+        <item>Faculty of Sports</item>
+        <item>Fair Trade Organization</item>
+        <item>Fairground</item>
+        <item>Falafel Restaurant</item>
+        <item>Family Counselor</item>
+        <item>Family Day Care Service</item>
+        <item>Family Hotel</item>
+        <item>Family Law Attorney</item>
+        <item>Family Planning Center</item>
+        <item>Family Planning Counselor</item>
+        <item>Family Practice Physician</item>
+        <item>Family Restaurant</item>
+        <item>Family Service Center</item>
+        <item>Farm</item>
+        <item>Farm Bureau</item>
+        <item>Farm Equipment Repair Service</item>
+        <item>Farm Equipment Supplier</item>
+        <item>Farm Household Tour</item>
+        <item>Farm School</item>
+        <item>Farm Shop</item>
+        <item>Farmers’ Market</item>
+        <item>Farmstay</item>
+        <item>Fashion Accessories Store</item>
+        <item>Fashion Design School</item>
+        <item>Fashion Designer</item>
+        <item>Fast Food Restaurant</item>
+        <item>Fastener Supplier</item>
+        <item>Favela</item>
+        <item>Fax Service</item>
+        <item>Federal Agency for Technical Relief</item>
+        <item>Federal Credit Union</item>
+        <item>Federal Government Office</item>
+        <item>Federal Police</item>
+        <item>Federal Reserve Bank</item>
+        <item>Feed Manufacturer</item>
+        <item>Animal Feed Store</item>
+        <item>Felt Boots Store</item>
+        <item>Fence Contractor</item>
+        <item>Fence Supply Store</item>
+        <item>Fencing Salon</item>
+        <item>Fencing School</item>
+        <item>Feng Shui Consultant</item>
+        <item>Feng Shui Shop</item>
+        <item>Ferris wheel</item>
+        <item>Ferry Service</item>
+        <item>Fertility Clinic</item>
+        <item>Fertility Physician</item>
+        <item>Fertilizer Supplier</item>
+        <item>Festival</item>
+        <item>Festival Hall</item>
+        <item>Fiat dealer</item>
+        <item>Fiber Optic Products Supplier</item>
+        <item>Fiberglass Repair Service</item>
+        <item>Fiberglass Supplier</item>
+        <item>Figurine Shop</item>
+        <item>Filipino Restaurant</item>
+        <item>Film and Photograph Library</item>
+        <item>Film Production Company</item>
+        <item>Filtration Plant</item>
+        <item>Finance Broker</item>
+        <item>Financial Audit</item>
+        <item>Financial Consultant</item>
+        <item>Financial Institution</item>
+        <item>Financial Planner</item>
+        <item>Fine Dining Restaurant</item>
+        <item>Fingerprinting Service</item>
+        <item>Finishing Materials Supplier</item>
+        <item>Finnish Restaurant</item>
+        <item>Fire Alarm Supplier</item>
+        <item>Fire Damage Restoration Service</item>
+        <item>Fire Department Equipment Supplier</item>
+        <item>Fire Fighters Academy</item>
+        <item>Fire Protection Consultant</item>
+        <item>Fire Protection Equipment Supplier</item>
+        <item>Fire Protection Service</item>
+        <item>Fire Protection System Supplier</item>
+        <item>Fire Station</item>
+        <item>Firearms Academy</item>
+        <item>Fireplace Manufacturer</item>
+        <item>Fireplace Store</item>
+        <item>Firewood Supplier</item>
+        <item>Fireworks Store</item>
+        <item>Fireworks Supplier</item>
+        <item>First Aid Station</item>
+        <item>Fish and Chips Restaurant</item>
+        <item>Fish and Chips Takeaway</item>
+        <item>Fish Farm</item>
+        <item>Fish Processing</item>
+        <item>Fish Spa</item>
+        <item>Fish Store</item>
+        <item>Fishing Camp</item>
+        <item>Fishing Charter</item>
+        <item>Fishing Club</item>
+        <item>Fishing Pier</item>
+        <item>Fishing Pond</item>
+        <item>Fishing Store</item>
+        <item>Health Club</item>
+        <item>Exercise Equipment Store</item>
+        <item>Fitness Equipment Wholesaler</item>
+        <item>Fitted Furniture Supplier</item>
+        <item>Flag Store</item>
+        <item>Flamenco Dance Store</item>
+        <item>Flamenco School</item>
+        <item>Flamenco Theater</item>
+        <item>Flavours Fragrances and Aroma Supplier</item>
+        <item>Flea Market</item>
+        <item>Flight School</item>
+        <item>Floating Market</item>
+        <item>Floor Refinishing Service</item>
+        <item>Floor Sanding and Polishing Service</item>
+        <item>Flooring Contractor</item>
+        <item>Flooring Store</item>
+        <item>Floridian Restaurant</item>
+        <item>Florist</item>
+        <item>Flour Mill</item>
+        <item>Flower Delivery</item>
+        <item>Flower Designer</item>
+        <item>Flower Market</item>
+        <item>FMCG Goods Wholesaler</item>
+        <item>FMCG Manufacturer</item>
+        <item>Foam Rubber Producer</item>
+        <item>Foam Rubber Supplier</item>
+        <item>Folk High School</item>
+        <item>Fondue Restaurant</item>
+        <item>Food and Beverage Consultant</item>
+        <item>Food and Beverage Exporter</item>
+        <item>Food Bank</item>
+        <item>Food Broker</item>
+        <item>Food Court</item>
+        <item>Food Machinery Supplier</item>
+        <item>Food Manufacturer</item>
+        <item>Food Manufacturing Supply</item>
+        <item>Food Processing Company</item>
+        <item>Food Processing Equipment</item>
+        <item>Food Producer</item>
+        <item>Food Products Supplier</item>
+        <item>Food Seasoning Manufacturer</item>
+        <item>Foot Bath</item>
+        <item>Foot Care</item>
+        <item>Foot Massage Parlor</item>
+        <item>Football Club</item>
+        <item>American Football Field</item>
+        <item>Ford Dealer</item>
+        <item>Foreclosure Service</item>
+        <item>Foreign Consulate</item>
+        <item>Foreign Exchange Students Organization</item>
+        <item>Foreign Languages Program School</item>
+        <item>Foreign Trade Consultant</item>
+        <item>Foreman Builders Association</item>
+        <item>Forensic Consultant</item>
+        <item>Forestry Service</item>
+        <item>Forklift Dealer</item>
+        <item>Forklift Rental Service</item>
+        <item>Formal Wear Store</item>
+        <item>Fortress</item>
+        <item>Fortune Telling Services</item>
+        <item>Foster Care Service</item>
+        <item>Foundation</item>
+        <item>Foundry</item>
+        <item>Fountain Contractor</item>
+        <item>Foursquare Church</item>
+        <item>Fraternal Organization</item>
+        <item>Free Clinic</item>
+        <item>Free Parking Lot</item>
+        <item>Freestyle Wrestling</item>
+        <item>Freight Forwarding Service</item>
+        <item>French Language School</item>
+        <item>French Restaurant</item>
+        <item>French Steakhouse Restaurant</item>
+        <item>Fresh Food Market</item>
+        <item>Fried Chicken Takeaway</item>
+        <item>Friends Church</item>
+        <item>Frituur</item>
+        <item>Frozen Dessert Supplier</item>
+        <item>Frozen Food Manufacturer</item>
+        <item>Frozen Food Store</item>
+        <item>Frozen Yogurt Shop</item>
+        <item>Fruit and Vegetable Processing</item>
+        <item>Fruit and Vegetable Store</item>
+        <item>Fruit and Vegetable Wholesaler</item>
+        <item>Fruit Parlor</item>
+        <item>Fruit Wholesaler</item>
+        <item>Fruits Wholesaler</item>
+        <item>Fu Jian Restaurant</item>
+        <item>Fuel Supplier</item>
+        <item>Fugu Restaurant</item>
+        <item>Full Dress Rental Service</item>
+        <item>Full Gospel Church</item>
+        <item>Function Room Facility</item>
+        <item>Fund Management Company</item>
+        <item>Funeral Director</item>
+        <item>Funeral Home</item>
+        <item>Fur Coat Shop</item>
+        <item>Fur Manufacturer</item>
+        <item>Fur Service</item>
+        <item>Furnace Parts Supplier</item>
+        <item>Furnace Repair Service</item>
+        <item>Furnace Store</item>
+        <item>Furnished Apartment Building</item>
+        <item>Furniture Accessories</item>
+        <item>Furniture Accessories Supplier</item>
+        <item>Furniture Maker</item>
+        <item>Furniture Manufacturer</item>
+        <item>Furniture Rental Service</item>
+        <item>Furniture Repair Shop</item>
+        <item>Furniture Store</item>
+        <item>Furniture Wholesaler</item>
+        <item>Fusion Restaurant</item>
+        <item>Futon Store</item>
+        <item>Futsal Court</item>
+        <item>Galician Restaurant</item>
+        <item>Gambling House</item>
+        <item>Gambling Instructor</item>
+        <item>Game Store</item>
+        <item>Garage Builder</item>
+        <item>Garage Door Supplier</item>
+        <item>Garbage Collection Service</item>
+        <item>Garbage Dump</item>
+        <item>Garbage Dump Service</item>
+        <item>Garden</item>
+        <item>Garden Building Supplier</item>
+        <item>Garden Center</item>
+        <item>Garden Furniture Shop</item>
+        <item>Garden Machinery Supplier</item>
+        <item>Gardener</item>
+        <item>Garment Exporter</item>
+        <item>Gas Company</item>
+        <item>Gas Cylinders Supplier</item>
+        <item>Gas Engineer</item>
+        <item>Gas Installation Service</item>
+        <item>Gas Logs Supplier</item>
+        <item>Gas Shop</item>
+        <item>Gas Station</item>
+        <item>Gasfitter</item>
+        <item>Gasket Manufacturer</item>
+        <item>Gastroenterologist</item>
+        <item>Gastrointestinal Surgeon</item>
+        <item>Gastropub</item>
+        <item>Gay and Lesbian Organization</item>
+        <item>Gay Bar</item>
+        <item>Gay Night Club</item>
+        <item>Gay Sauna</item>
+        <item>Gazebo Builder</item>
+        <item>Gemologist</item>
+        <item>Genealogist</item>
+        <item>General Contractor</item>
+        <item>General Hospital</item>
+        <item>General Practice Attorney</item>
+        <item>General Practitioner</item>
+        <item>General Register Office</item>
+        <item>General Store</item>
+        <item>Generator Shop</item>
+        <item>Geography and History Faculty</item>
+        <item>Geological Research Company</item>
+        <item>Geological Service</item>
+        <item>Geologist</item>
+        <item>Georgian Restaurant</item>
+        <item>Geotechnical Engineer</item>
+        <item>German Language School</item>
+        <item>German Restaurant</item>
+        <item>Ghost Town</item>
+        <item>Gift Basket Store</item>
+        <item>Gift Shop</item>
+        <item>Gift Wrap Store</item>
+        <item>Girl Bar</item>
+        <item>Girls’ High School</item>
+        <item>Glass and Mirror Shop</item>
+        <item>Glass Block Supplier</item>
+        <item>Glass Blower</item>
+        <item>Glass Cutting Service</item>
+        <item>Glass Engraver</item>
+        <item>Glass Etching Service</item>
+        <item>Glass Industry</item>
+        <item>Glass Manufacturer</item>
+        <item>Glass Merchant</item>
+        <item>Glass Repair Service</item>
+        <item>Glass Shop</item>
+        <item>Glassware Manufacturer</item>
+        <item>Glassware Store</item>
+        <item>Glassware Wholesaler</item>
+        <item>Glazier</item>
+        <item>Gluten-Free Restaurant</item>
+        <item>GMC Dealer</item>
+        <item>Go-Kart Track</item>
+        <item>Gold Dealer</item>
+        <item>Gold Mining Company</item>
+        <item>Goldfish Store</item>
+        <item>Goldsmith</item>
+        <item>Golf Cart Dealer</item>
+        <item>Golf Club</item>
+        <item>Golf Course</item>
+        <item>Golf Course Builder</item>
+        <item>Golf Driving Range</item>
+        <item>Golf Instructor</item>
+        <item>Golf Resort</item>
+        <item>Gospel Church</item>
+        <item>Gourmet Grocery Store</item>
+        <item>Government College</item>
+        <item>Government Economic Program</item>
+        <item>Government Hospital</item>
+        <item>Government Office</item>
+        <item>Government School</item>
+        <item>GPS Supplier</item>
+        <item>Graduate School</item>
+        <item>Graffiti Removal Service</item>
+        <item>Grain Elevator</item>
+        <item>Grammar School</item>
+        <item>Grand Cafe</item>
+        <item>Grande Ecole</item>
+        <item>Granite Supplier</item>
+        <item>Graphic Designer</item>
+        <item>Gravel Pit</item>
+        <item>Gravel Plant</item>
+        <item>Greco Roman Wrestling</item>
+        <item>Greek Orthodox Church</item>
+        <item>Greek Restaurant</item>
+        <item>Green Energy Supplier</item>
+        <item>Greengrocer</item>
+        <item>Greenhouse</item>
+        <item>Greeting Card Shop</item>
+        <item>Greyhound Stadium</item>
+        <item>Grill Store</item>
+        <item>Grocery Delivery Service</item>
+        <item>Grocery Store</item>
+        <item>Ground Self Defense Force</item>
+        <item>Group Accommodation</item>
+        <item>Group Home</item>
+        <item>Guardia Civil</item>
+        <item>Guardia Di Finanza Police</item>
+        <item>Guatemalan Restaurant</item>
+        <item>Guest House</item>
+        <item>Gui Zhou Restaurant</item>
+        <item>Guitar Instructor</item>
+        <item>Guitar Store</item>
+        <item>Gun Club</item>
+        <item>Gun Shop</item>
+        <item>Offal Barbecue Restaurant</item>
+        <item>Gutter Cleaning Service</item>
+        <item>Gym</item>
+        <item>Gymnasium Cz</item>
+        <item>Gymnasium School</item>
+        <item>Gymnastics Center</item>
+        <item>Gymnastics Club</item>
+        <item>Obstetrician-Gynecologist</item>
+        <item>Gypsum Product Supplier</item>
+        <item>Gyro Restaurant</item>
+        <item>Haberdashery</item>
+        <item>Hair Extension Technician</item>
+        <item>Hair Extensions Supplier</item>
+        <item>Hair Removal Service</item>
+        <item>Hair Replacement Service</item>
+        <item>Hair Salon</item>
+        <item>Hair Transplantation Clinic</item>
+        <item>Haitian Restaurant</item>
+        <item>Hakka Restaurant</item>
+        <item>Halal Restaurant</item>
+        <item>Halfway House</item>
+        <item>Ham Shop</item>
+        <item>Hamburger Restaurant</item>
+        <item>Hammam</item>
+        <item>Hand Surgeon</item>
+        <item>Handbags Shop</item>
+        <item>Handball Club</item>
+        <item>Handball Court</item>
+        <item>Handicapped Transportation Service</item>
+        <item>Handicraft</item>
+        <item>Handicraft Exporter</item>
+        <item>Handicraft Fair</item>
+        <item>Handicraft Museum</item>
+        <item>Handicraft School</item>
+        <item>Handicrafts Wholesaler</item>
+        <item>Handyman</item>
+        <item>Hang Gliding Center</item>
+        <item>Hardware Store</item>
+        <item>Hardware Training Institute</item>
+        <item>Harley-Davidson Dealer</item>
+        <item>Hat Shop</item>
+        <item>Haunted House</item>
+        <item>Haute Couture Fashion House</item>
+        <item>Haute French Restaurant</item>
+        <item>Hawaiian Goods Store</item>
+        <item>Hawaiian Restaurant</item>
+        <item>Hawker Centre</item>
+        <item>Hawker Stall</item>
+        <item>Hay Supplier</item>
+        <item>Head Start Center</item>
+        <item>Health and Beauty Shop</item>
+        <item>Health Consultant</item>
+        <item>Health Food Restaurant</item>
+        <item>Health Food Store</item>
+        <item>Health Insurance Agency</item>
+        <item>Health Resort</item>
+        <item>Health Spa</item>
+        <item>Hearing Aid Repair Service</item>
+        <item>Hearing Aid Store</item>
+        <item>Heart Hospital</item>
+        <item>Heating Contractor</item>
+        <item>Heating Equipment Supplier</item>
+        <item>Heating Oil Supplier</item>
+        <item>Height Works</item>
+        <item>Helicopter Charter</item>
+        <item>Helicopter Tour Agency</item>
+        <item>Heliport</item>
+        <item>Helium Gas Supplier</item>
+        <item>Helpline</item>
+        <item>Hematologist</item>
+        <item>Herb Shop</item>
+        <item>Herbal Medicine Store</item>
+        <item>Herbalist</item>
+        <item>Heritage Building</item>
+        <item>Heritage Museum</item>
+        <item>Heritage Preservation</item>
+        <item>High Ropes Course</item>
+        <item>High School</item>
+        <item>Higher Secondary School</item>
+        <item>Highway Patrol</item>
+        <item>Hiking Area</item>
+        <item>Hindu Priest</item>
+        <item>Hindu Temple</item>
+        <item>Hip Hop Dance Class</item>
+        <item>Hispanic Church</item>
+        <item>Historical Landmark</item>
+        <item>Historical Place Museum</item>
+        <item>Historical Society</item>
+        <item>History Museum</item>
+        <item>HIV Testing Center</item>
+        <item>Hoagie Restaurant</item>
+        <item>Hobby Store</item>
+        <item>Hockey Club</item>
+        <item>Hockey Field</item>
+        <item>Hockey Rink</item>
+        <item>Hockey Supply Store</item>
+        <item>Holding Company</item>
+        <item>Holiday Accommodation Service</item>
+        <item>Holiday Apartment Rental</item>
+        <item>Holiday Home</item>
+        <item>Holiday Park</item>
+        <item>Holistic Medicine Practitioner</item>
+        <item>Home Automation Company</item>
+        <item>Home Builder</item>
+        <item>Home Cinema Installation</item>
+        <item>Home Goods Store</item>
+        <item>Home Hairdresser</item>
+        <item>Home Health Care Service</item>
+        <item>Home Help</item>
+        <item>Home Help Service Agency</item>
+        <item>Home Improvement Store</item>
+        <item>Home Inspector</item>
+        <item>Home Insurance Agency</item>
+        <item>Home Theater Store</item>
+        <item>Homekill Service</item>
+        <item>Homeless Service</item>
+        <item>Homeless Shelter</item>
+        <item>Homeopath</item>
+        <item>Homeopathic Pharmacy</item>
+        <item>Homeowners’ Association</item>
+        <item>Honda Dealer</item>
+        <item>Honduran Restaurant</item>
+        <item>Honey Farm</item>
+        <item>Hong Kong Style Fast Food Restaurant</item>
+        <item>Hookah Bar</item>
+        <item>Hookah Store</item>
+        <item>Horse Boarding Stable</item>
+        <item>Horse Breeder</item>
+        <item>Horse Rental Service</item>
+        <item>Horse Riding Field</item>
+        <item>Horse Riding School</item>
+        <item>Horse Trailer Dealer</item>
+        <item>Horse Trainer</item>
+        <item>Horseback Riding Service</item>
+        <item>Horse Transport Supplier</item>
+        <item>Horseshoe Smith</item>
+        <item>Horsestable Studfarm</item>
+        <item>Hose Supplier</item>
+        <item>Hospice</item>
+        <item>Hospital</item>
+        <item>Hospital Equipment and Supplies</item>
+        <item>Hospital Department</item>
+        <item>Hospitality and Tourism School</item>
+        <item>Hospitality High School</item>
+        <item>Host Club</item>
+        <item>Hostel</item>
+        <item>Hot Bedstone Spa</item>
+        <item>Hot Dog Restaurant</item>
+        <item>Hot Dog Stand</item>
+        <item>Hot Pot Restaurant</item>
+        <item>Hot Spring Hotel</item>
+        <item>Hot Tub Repair Service</item>
+        <item>Hot Tub Store</item>
+        <item>Hot Water System Supplier</item>
+        <item>Hotel</item>
+        <item>Hotel Management School</item>
+        <item>Hotel Supply Store</item>
+        <item>House Cleaning Service</item>
+        <item>House Clearance Service</item>
+        <item>House Sitter</item>
+        <item>House Sitter Agency</item>
+        <item>Houseboat Rental Service</item>
+        <item>Household Chemicals Supplier</item>
+        <item>Household Goods Wholesaler</item>
+        <item>Housing Association</item>
+        <item>Housing Authority</item>
+        <item>Housing Complex</item>
+        <item>Housing Cooperative</item>
+        <item>Housing Development</item>
+        <item>Housing Society</item>
+        <item>Housing Utility Company</item>
+        <item>Hua Gong Shop</item>
+        <item>Hua Hui Market Place</item>
+        <item>Hua Niao Market Place</item>
+        <item>Hub Cap Supplier</item>
+        <item>Huissier</item>
+        <item>Human Resource Consulting</item>
+        <item>Hunan Restaurant</item>
+        <item>Hungarian Restaurant</item>
+        <item>Hunting and Fishing Store</item>
+        <item>Hunting Area</item>
+        <item>Hunting Club</item>
+        <item>Hunting Preserve</item>
+        <item>Hunting Store</item>
+        <item>HVAC Contractor</item>
+        <item>Hydraulic Engineer</item>
+        <item>Hydraulic Equipment Supplier</item>
+        <item>Hydraulic Repair Service</item>
+        <item>Hydroelectric Power Plant</item>
+        <item>Hydroponics Equipment Supplier</item>
+        <item>Hygiene Articles Wholesaler</item>
+        <item>Hygiene Station</item>
+        <item>Hypermarket</item>
+        <item>Hypnotherapy Service</item>
+        <item>Hyundai Dealer</item>
+        <item>Ice Cream Equipment Supplier</item>
+        <item>Ice Cream Shop</item>
+        <item>Ice Hockey Club</item>
+        <item>Ice Skating Club</item>
+        <item>Ice Skating Instructor</item>
+        <item>Ice Skating Rink</item>
+        <item>Ice Supplier</item>
+        <item>Icelandic Restaurant</item>
+        <item>Icse School</item>
+        <item>Idol Manufacturer</item>
+        <item>Image Consultant</item>
+        <item>Imax Theater</item>
+        <item>Immigration and Naturalization Service</item>
+        <item>Immigration Attorney</item>
+        <item>Immigration Detention Centre</item>
+        <item>Immunologist</item>
+        <item>Impermeabilization Service</item>
+        <item>Import Export Company</item>
+        <item>Importer</item>
+        <item>Incense Supplier</item>
+        <item>Incineration Plant</item>
+        <item>Income Protection Insurance</item>
+        <item>Income Tax Help Association</item>
+        <item>Indian Grocery Store</item>
+        <item>Indian Muslim Restaurant</item>
+        <item>Indian Restaurant</item>
+        <item>Indonesian Restaurant</item>
+        <item>Indoor Cycling</item>
+        <item>Indoor Golf Course</item>
+        <item>Indoor Lodging</item>
+        <item>Indoor Playground</item>
+        <item>Indoor Snowcenter</item>
+        <item>Indoor Swimming Pool</item>
+        <item>Industrial Area</item>
+        <item>Industrial Chemicals Wholesaler</item>
+        <item>Industrial Consultant</item>
+        <item>Industrial Design Company</item>
+        <item>Industrial Door Supplier</item>
+        <item>Industrial Engineer</item>
+        <item>Industrial Engineers Association</item>
+        <item>Industrial Equipment Supplier</item>
+        <item>Industrial Framework Supplier</item>
+        <item>Industrial Gas Supplier</item>
+        <item>Industrial Real Estate Agency</item>
+        <item>Industrial Supermarket</item>
+        <item>Industrial Technical Engineers Association</item>
+        <item>Industrial Vacuum Equipment Supplier</item>
+        <item>Infectious Disease Physician</item>
+        <item>Infiniti Dealer</item>
+        <item>Information Bureau</item>
+        <item>Information Services</item>
+        <item>Inn</item>
+        <item>Insolvency Service</item>
+        <item>Institute of Geography and Statistics</item>
+        <item>Instrumentation Engineer</item>
+        <item>Insulation Contractor</item>
+        <item>Insulation Materials Store</item>
+        <item>Insulator Supplier</item>
+        <item>Insurance Agency</item>
+        <item>Insurance Attorney</item>
+        <item>Insurance Broker</item>
+        <item>Insurance Company</item>
+        <item>Insurance School</item>
+        <item>Intellectual Property Registry</item>
+        <item>Interior Architect Office</item>
+        <item>Interior Construction Contractor</item>
+        <item>Interior Designer</item>
+        <item>Interior Door</item>
+        <item>Interior Fitting Contractor</item>
+        <item>Interior Plant Service</item>
+        <item>Internal Medicine Ward</item>
+        <item>International Airport</item>
+        <item>International School</item>
+        <item>International Trade Consultant</item>
+        <item>Internet Cafe</item>
+        <item>Internet Marketing Service</item>
+        <item>Internet Service Provider</item>
+        <item>Internet Shop</item>
+        <item>Internist</item>
+        <item>Investment Bank</item>
+        <item>Investment Company</item>
+        <item>Investment Service</item>
+        <item>Invitation Printing Service</item>
+        <item>Irish Goods Store</item>
+        <item>Irish Pub</item>
+        <item>Irish Restaurant</item>
+        <item>Iron Steel Contractor</item>
+        <item>Iron Ware Dealer</item>
+        <item>Iron Works</item>
+        <item>Irrigation Equipment Supplier</item>
+        <item>Israeli Restaurant</item>
+        <item>Isuzu Dealer</item>
+        <item>Italian Grocery Store</item>
+        <item>Italian Restaurant</item>
+        <item>IUP</item>
+        <item>Institute of Technology</item>
+        <item>Jaguar Dealer</item>
+        <item>Jain Temple</item>
+        <item>Jamaican Restaurant</item>
+        <item>Janitorial Equipment Supplier</item>
+        <item>Janitorial Service</item>
+        <item>Authentic Japanese Restaurant</item>
+        <item>Japanese Cheap Sweets Shop</item>
+        <item>Japanese Confectionary Shop</item>
+        <item>Japanese Curry Restaurant</item>
+        <item>Japanese Delicatessen</item>
+        <item>Japanese Grocery Store</item>
+        <item>Ryotei Restaurant</item>
+        <item>Japanese Hot Pot Restaurant</item>
+        <item>Japanese Inn With Hot Spring</item>
+        <item>Japanese Inns</item>
+        <item>Izakaya Restaurant</item>
+        <item>Japanese Language Instructor</item>
+        <item>Japanese Regional Restaurant</item>
+        <item>Japanese Restaurant</item>
+        <item>Japanese Steakhouse</item>
+        <item>Japanese Sweets Restaurant</item>
+        <item>Japanized Western Restaurant</item>
+        <item>Jazz Club</item>
+        <item>Jeep Dealer</item>
+        <item>Jehovah’s Witness Kingdom Hall</item>
+        <item>Jeweler</item>
+        <item>Jewelry Appraiser</item>
+        <item>Jewelry Buyer</item>
+        <item>Jewelry Designer</item>
+        <item>Jewelry Engraver</item>
+        <item>Jewelry Equipment Supplier</item>
+        <item>Jewelry Exporter</item>
+        <item>Jewellery Manufacturer</item>
+        <item>Jewelry Repair Service</item>
+        <item>Jewelry Store</item>
+        <item>Jewish Restaurant</item>
+        <item>Jiang Su Restaurant</item>
+        <item>Joiner</item>
+        <item>Judicial Auction</item>
+        <item>Judicial Scrivener</item>
+        <item>Judo Club</item>
+        <item>Judo School</item>
+        <item>Juice Shop</item>
+        <item>Jujitsu School</item>
+        <item>Junior College</item>
+        <item>Junk Dealer</item>
+        <item>Junk Store</item>
+        <item>Junkyard</item>
+        <item>Justice Department</item>
+        <item>Jute Exporter</item>
+        <item>Jute Mill</item>
+        <item>Juvenile Detention Center</item>
+        <item>Kabaddi Club</item>
+        <item>Kaiseki Restaurant</item>
+        <item>Karaoke</item>
+        <item>Karaoke Bar</item>
+        <item>Karaoke Equipment Rental Service</item>
+        <item>Karate Club</item>
+        <item>Karate School</item>
+        <item>Kashmiri Restaurant</item>
+        <item>Kawasaki Motorcycle Dealer</item>
+        <item>Kazakhstani Restaurant</item>
+        <item>Kebab Shop</item>
+        <item>Kennel</item>
+        <item>Kerosene Supplier</item>
+        <item>Key Duplication Service</item>
+        <item>Kia Dealer</item>
+        <item>Kickboxing School</item>
+        <item>Kilt Shop and Hire</item>
+        <item>Kimono Store</item>
+        <item>Kindergarten</item>
+        <item>Kinesiologist</item>
+        <item>Kiosk</item>
+        <item>Kitchen Furniture Store</item>
+        <item>Kitchen Remodeler</item>
+        <item>Kitchen Supply Store</item>
+        <item>Kite Shop</item>
+        <item>Knife Manufacturing</item>
+        <item>Knife Store</item>
+        <item>Knit Shop</item>
+        <item>Knitting Instructor</item>
+        <item>Knitwear Manufacturer</item>
+        <item>Korean Barbecue Restaurant</item>
+        <item>Korean Beef Restaurant</item>
+        <item>Korean Church</item>
+        <item>Korean Grocery Store</item>
+        <item>Korean Restaurant</item>
+        <item>Korean Rib Restaurant</item>
+        <item>Kosher Grocery Store</item>
+        <item>Kosher Restaurant</item>
+        <item>Kung Fu School</item>
+        <item>Kushiyaki Restaurant</item>
+        <item>Kyoto Style Japanese Restaurant</item>
+        <item>Labor Relations Attorney</item>
+        <item>Labor Union</item>
+        <item>Laboratory</item>
+        <item>Laboratory Equipment Supplier</item>
+        <item>Labour Club</item>
+        <item>Ladder Supplier</item>
+        <item>Laminating Equipment Supplier</item>
+        <item>Lamination Service</item>
+        <item>Lamp Repair Service</item>
+        <item>Lamp Shade Supplier</item>
+        <item>Land Allotment</item>
+        <item>Land Planning Authority</item>
+        <item>Land Reform Institute</item>
+        <item>Land Rover Dealer</item>
+        <item>Land Surveying Office</item>
+        <item>Land Surveyor</item>
+        <item>Landscape Architect</item>
+        <item>Landscape Designer</item>
+        <item>Landscape Lighting Designer</item>
+        <item>Landscaper</item>
+        <item>Landscaping Supply Store</item>
+        <item>Language School</item>
+        <item>Laotian Restaurant</item>
+        <item>Lapidary</item>
+        <item>Laser Cutting Service</item>
+        <item>Laser Equipment Supplier</item>
+        <item>Laser Hair Removal Service</item>
+        <item>Laser Tag Center</item>
+        <item>LASIK Surgeon</item>
+        <item>Latin American Restaurant</item>
+        <item>Laundromat</item>
+        <item>Laundry</item>
+        <item>Laundry Service</item>
+        <item>Law Book Store</item>
+        <item>Law Firm</item>
+        <item>Law Library</item>
+        <item>Law School</item>
+        <item>Lawn Bowls Club</item>
+        <item>Lawn Care Service</item>
+        <item>Lawn Equipment Rental Service</item>
+        <item>Lawn Irrigation Equipment Supplier</item>
+        <item>Lawn Mower Repair Service</item>
+        <item>Lawn Mower Store</item>
+        <item>Lawn Sprinkler System Contractor</item>
+        <item>Lawyer</item>
+        <item>Lawyers Association</item>
+        <item>Leagues Club</item>
+        <item>Learner Driver Training Area</item>
+        <item>Learning Center</item>
+        <item>Leasing Service</item>
+        <item>Leather Cleaning Service</item>
+        <item>Leather Coats Store</item>
+        <item>Leather Exporter</item>
+        <item>Leather Goods Manufacturer</item>
+        <item>Leather Goods Store</item>
+        <item>Leather Goods Supplier</item>
+        <item>Leather Goods Wholesaler</item>
+        <item>Leather Repair Service</item>
+        <item>Leather Wholesaler</item>
+        <item>Lebanese Restaurant</item>
+        <item>Legal Affairs Bureau</item>
+        <item>Legal Aid Office</item>
+        <item>Legal Services</item>
+        <item>Leisure Centre</item>
+        <item>Lexus Dealer</item>
+        <item>Library</item>
+        <item>License Bureau</item>
+        <item>License Plate Frames Supplier</item>
+        <item>Lido</item>
+        <item>Life Coach</item>
+        <item>Life Insurance Agency</item>
+        <item>Light Bulb Supplier</item>
+        <item>Lighting Consultant</item>
+        <item>Lighting Contractor</item>
+        <item>Lighting Manufacturer</item>
+        <item>Lighting Store</item>
+        <item>Lighting Wholesaler</item>
+        <item>Limousine Service</item>
+        <item>Lincoln Mercury Dealer</item>
+        <item>Line Marking Service</item>
+        <item>Linens Store</item>
+        <item>Lingerie Manufacturer</item>
+        <item>Lingerie Store</item>
+        <item>Lingerie Wholesaler</item>
+        <item>Linoleum Store</item>
+        <item>Lion Dance Troupe</item>
+        <item>Liquidator</item>
+        <item>Liquor Store</item>
+        <item>Liquor Wholesaler</item>
+        <item>Literacy Program</item>
+        <item>Lithuanian Restaurant</item>
+        <item>Little League Club</item>
+        <item>Little League Field</item>
+        <item>Live Music Bar</item>
+        <item>Live Music Venue</item>
+        <item>Livery Company</item>
+        <item>Livestock Auction House</item>
+        <item>Livestock Breeder</item>
+        <item>Livestock Dealer</item>
+        <item>Livestock Producer</item>
+        <item>Loan Agency</item>
+        <item>Lobster Restaurant</item>
+        <item>Local Government Office</item>
+        <item>Local History Museum</item>
+        <item>Local Medical Services</item>
+        <item>Locks Supplier</item>
+        <item>Locksmith</item>
+        <item>Lodge</item>
+        <item>Lodging</item>
+        <item>Log Cabins</item>
+        <item>Log Home Builder</item>
+        <item>Logging Contractor</item>
+        <item>Logistics Service</item>
+        <item>Loss Adjuster</item>
+        <item>Lost Property Office</item>
+        <item>Lottery Retailer</item>
+        <item>Lottery Shop</item>
+        <item>Lounge</item>
+        <item>Love Hotel</item>
+        <item>Low Emission Zone</item>
+        <item>Low Income Housing Program</item>
+        <item>LPG Conversion</item>
+        <item>Luggage Repair Service</item>
+        <item>Luggage Store</item>
+        <item>Luggage Wholesaler</item>
+        <item>Lumber Store</item>
+        <item>Lunch Restaurant</item>
+        <item>Lutheran Church</item>
+        <item>Luxury Hotel</item>
+        <item>Lyceum</item>
+        <item>Lymph Drainage Therapist</item>
+        <item>Machine Construction</item>
+        <item>Machine Knife Supplier</item>
+        <item>Machine Maintenance</item>
+        <item>Machine Repair Service</item>
+        <item>Machine Shop</item>
+        <item>Machine Workshop</item>
+        <item>Machinery Parts Manufacturer</item>
+        <item>Machining Manufacturer</item>
+        <item>Macrobiotic Restaurant</item>
+        <item>Madrilian Restaurant</item>
+        <item>Magazine Publisher</item>
+        <item>Magazine Store</item>
+        <item>Magic Store</item>
+        <item>Magician</item>
+        <item>Mah Jong House</item>
+        <item>Mailbox Rental Service</item>
+        <item>Mailbox Supplier</item>
+        <item>Mailing Machine Supplier</item>
+        <item>Mailing Service</item>
+        <item>Main Customs Office</item>
+        <item>Make-up Artist</item>
+        <item>Malaysian Restaurant</item>
+        <item>Male Hospital</item>
+        <item>Maltese Restaurant</item>
+        <item>Mammography Service</item>
+        <item>Management School</item>
+        <item>Mandarin Restaurant</item>
+        <item>Manor House</item>
+        <item>Manufactured Home Transporter</item>
+        <item>Manufacturer</item>
+        <item>Maori Organization</item>
+        <item>Map Store</item>
+        <item>Mapping Service</item>
+        <item>Marae</item>
+        <item>Marble Contractor</item>
+        <item>Marble Supplier</item>
+        <item>Marche Restaurant</item>
+        <item>Marina</item>
+        <item>Marine Engineer</item>
+        <item>Marine Self Defense Force</item>
+        <item>Marine Supply Store</item>
+        <item>Marine Surveyor</item>
+        <item>Maritime Museum</item>
+        <item>Market</item>
+        <item>Market Operator</item>
+        <item>Market Researcher</item>
+        <item>Marketing Agency</item>
+        <item>Marketing Consultant</item>
+        <item>Markmens Clubhouse</item>
+        <item>Marquee Hire Service</item>
+        <item>Marriage Celebrant</item>
+        <item>Marriage Counselor</item>
+        <item>Marriage License Bureau</item>
+        <item>Martial Arts Club</item>
+        <item>Martial Arts School</item>
+        <item>Martial Arts Supply Store</item>
+        <item>Masonic Center</item>
+        <item>Masonry Contractor</item>
+        <item>Masonry Supply Store</item>
+        <item>Massage School</item>
+        <item>Massage Spa</item>
+        <item>Massage Supply Store</item>
+        <item>Massage Therapist</item>
+        <item>Match Box Manufacturer</item>
+        <item>Material Handling Equipment Supplier</item>
+        <item>Maternity Hospital</item>
+        <item>Maternity Store</item>
+        <item>Mathematics School</item>
+        <item>Mattress Store</item>
+        <item>Mausoleum Builder</item>
+        <item>Mazda Dealer</item>
+        <item>Meal Delivery</item>
+        <item>Meal Takeaway</item>
+        <item>Measuring Instruments Supplier</item>
+        <item>Meat Packer</item>
+        <item>Meat Processor</item>
+        <item>Meat Products</item>
+        <item>Meat Dish Restaurant</item>
+        <item>Meat Wholesaler</item>
+        <item>Mechanic</item>
+        <item>Mechanical Contractor</item>
+        <item>Mechanical Engineer</item>
+        <item>Mechanical Plant</item>
+        <item>Media and Information Sciences Faculty</item>
+        <item>Media Company</item>
+        <item>Media Consultant</item>
+        <item>Media House</item>
+        <item>Mediation Service</item>
+        <item>Medical Billing Service</item>
+        <item>Medical Book Store</item>
+        <item>Medical Center</item>
+        <item>Medical Certificate Service</item>
+        <item>Medical Clinic</item>
+        <item>Medical Diagnostic Imaging Center</item>
+        <item>Medical Equipment Manufacturer</item>
+        <item>Medical Equipment Supplier</item>
+        <item>Medical Examiner</item>
+        <item>Medical Group</item>
+        <item>Medical Laboratory</item>
+        <item>Medical Office</item>
+        <item>Medical School</item>
+        <item>Medical Spa</item>
+        <item>Medical Supply Store</item>
+        <item>Medical Technology Manufacturer</item>
+        <item>Medical Transcription Service</item>
+        <item>Medicine Exporter</item>
+        <item>Meditation Center</item>
+        <item>Meditation Instructor</item>
+        <item>Mediterranean Restaurant</item>
+        <item>Meeting Planning Service</item>
+        <item>Mehandi Class</item>
+        <item>Mehndi Designer</item>
+        <item>Memorial Estate</item>
+        <item>Memorial Park</item>
+        <item>Mennonite Church</item>
+        <item>Men’s Clothing Store</item>
+        <item>Mens Tailor</item>
+        <item>Mental Health Clinic</item>
+        <item>Mental Health Service</item>
+        <item>Mercantile Development</item>
+        <item>Mercedes Benz Dealer</item>
+        <item>Messianic Synagogue</item>
+        <item>Metal Construction Company</item>
+        <item>Metal Detecting Equipment Supplier</item>
+        <item>Metal Fabricator</item>
+        <item>Metal Finisher</item>
+        <item>Metal Heat Treating Service</item>
+        <item>Metal Industry Suppliers</item>
+        <item>Metal Machinery Supplier</item>
+        <item>Metal Polishing Service</item>
+        <item>Metal Processing Company</item>
+        <item>Metal Stamping Service</item>
+        <item>Metal Supplier</item>
+        <item>Metal Working Shop</item>
+        <item>Metal Workshop</item>
+        <item>Metallurgy Company</item>
+        <item>Metalware Dealer</item>
+        <item>Metalware Producer</item>
+        <item>Metaphysical Supply Store</item>
+        <item>Methodist Church</item>
+        <item>Metropolitan Train Company</item>
+        <item>Mexican Goods Store</item>
+        <item>Mexican Grocery Store</item>
+        <item>Mexican Restaurant</item>
+        <item>Mfr</item>
+        <item>Microbiologist</item>
+        <item>Microwave Oven Repair Service</item>
+        <item>Mid-Atlantic Restaurant (US)</item>
+        <item>Middle Eastern Restaurant</item>
+        <item>Middle School</item>
+        <item>Midwife</item>
+        <item>Militar Archive</item>
+        <item>Militar Residence</item>
+        <item>Military Barracks</item>
+        <item>Military Base</item>
+        <item>Military Board</item>
+        <item>Military Cemetery</item>
+        <item>Military Hospital</item>
+        <item>Military Recruiting Office</item>
+        <item>Military School</item>
+        <item>Military Town</item>
+        <item>Milk Delivery Service</item>
+        <item>Mill</item>
+        <item>Millwork Shop</item>
+        <item>Mine</item>
+        <item>Mineral Water Company</item>
+        <item>Mineral Water Wholesale</item>
+        <item>Miniature Golf Course</item>
+        <item>Miniatures Store</item>
+        <item>Minibus Taxi Service</item>
+        <item>Mining Company</item>
+        <item>Mining Consultant</item>
+        <item>Mining Engineer</item>
+        <item>Mining Equipment</item>
+        <item>Ministry of Education</item>
+        <item>Mirror Shop</item>
+        <item>Miso Cutlet Restaurant</item>
+        <item>Missing Persons Organization</item>
+        <item>Mission</item>
+        <item>Mitsubishi Dealer</item>
+        <item>Mobile Caterer</item>
+        <item>Mobile Disco</item>
+        <item>Mobile Hairdresser</item>
+        <item>Mobile Home Dealer</item>
+        <item>Mobile Home Park</item>
+        <item>Mobile Home Rental Agency</item>
+        <item>Mobile Home Supply Store</item>
+        <item>Mobile Money Agent</item>
+        <item>Mobile Network Operator</item>
+        <item>Mobile Phone Repair Shop</item>
+        <item>Mobility Equipment Supplier</item>
+        <item>Model Car Play Area</item>
+        <item>Model Design Company</item>
+        <item>Model Portfolio Studio</item>
+        <item>Model Train Store</item>
+        <item>Modeling Agency</item>
+        <item>Modeling School</item>
+        <item>Modern Art Museum</item>
+        <item>Modern British Restaurant</item>
+        <item>Modern European Restaurant</item>
+        <item>Modern French Restaurant</item>
+        <item>Modular Home Builder</item>
+        <item>Modular Home Dealer</item>
+        <item>Mold Maker</item>
+        <item>Molding Supplier</item>
+        <item>Monastery</item>
+        <item>Money Order Service</item>
+        <item>Money Transfer Service</item>
+        <item>Mongolian Barbecue Restaurant</item>
+        <item>Monjayaki Restaurant</item>
+        <item>Monogramming Service</item>
+        <item>Montessori School</item>
+        <item>Monument Maker</item>
+        <item>Moped Dealer</item>
+        <item>Moravian Church</item>
+        <item>Modern Izakaya Restaurants</item>
+        <item>Moroccan Restaurant</item>
+        <item>Mortgage Broker</item>
+        <item>Mortgage Lender</item>
+        <item>Mortuary</item>
+        <item>Mosque</item>
+        <item>Motel</item>
+        <item>Motor Scooter Dealer</item>
+        <item>Motor Scooter Repair Shop</item>
+        <item>Motor Vehicle Dealer</item>
+        <item>Motorcycle Dealer</item>
+        <item>Motorcycle Driving School</item>
+        <item>Motorcycle Insurance Agency</item>
+        <item>Motorcycle Parts Store</item>
+        <item>Motorcycle Rental Agency</item>
+        <item>Motorcycle Repair Shop</item>
+        <item>Motorcycle Shop</item>
+        <item>Motoring Club</item>
+        <item>Motorsports Store</item>
+        <item>Mountain Cable Car</item>
+        <item>Mountain Cabin</item>
+        <item>Mountaineering Class</item>
+        <item>Movie Rental Kiosk</item>
+        <item>Movie Rental Store</item>
+        <item>Movie Studio</item>
+        <item>Movie Theater</item>
+        <item>Moving and Storage Service</item>
+        <item>Moving Company</item>
+        <item>Moving Supply Store</item>
+        <item>MRI Center</item>
+        <item>Muay Thai Boxing Gym</item>
+        <item>Muffler Shop</item>
+        <item>Mulch Supplier</item>
+        <item>Multimedia and Electronic Book Publisher</item>
+        <item>Municipal Administration Office</item>
+        <item>Municipal Corporation</item>
+        <item>Municipal Department Agricultural Development</item>
+        <item>Municipal Department Agriculture Food Supply</item>
+        <item>Municipal Department Civil Defense</item>
+        <item>Municipal Department Communication</item>
+        <item>Municipal Department Finance</item>
+        <item>Municipal Department Housing and Urban Development</item>
+        <item>Municipal Department of Culture</item>
+        <item>Municipal Department of Sports</item>
+        <item>Municipal Department of Tourism</item>
+        <item>Municipal Department Science Technology</item>
+        <item>Municipal Department Social Defense</item>
+        <item>Municipal Guard</item>
+        <item>Municipal Health Department</item>
+        <item>Municipal Office Education</item>
+        <item>Municipal Social Development</item>
+        <item>Museum</item>
+        <item>Museum of Space History</item>
+        <item>Museum of Zoology</item>
+        <item>Music Box Store</item>
+        <item>Music College</item>
+        <item>Music Conservatory</item>
+        <item>Music Instructor</item>
+        <item>Music Management and Promotion</item>
+        <item>Music Producer</item>
+        <item>Music Publisher</item>
+        <item>Music School</item>
+        <item>Music Store</item>
+        <item>Musical Club</item>
+        <item>Musical Instrument Manufacturer</item>
+        <item>Musical Instrument Rental Service</item>
+        <item>Musical Instrument Repair Shop</item>
+        <item>Musical Instrument Store</item>
+        <item>Musician</item>
+        <item>Musician and Composer</item>
+        <item>Mutton Barbecue Restaurant</item>
+        <item>Nail Salon</item>
+        <item>Nanny</item>
+        <item>Nanotechnology Engineer</item>
+        <item>National Forest</item>
+        <item>National Health Foundation</item>
+        <item>National Library</item>
+        <item>National Museum</item>
+        <item>National Park</item>
+        <item>National Reserve</item>
+        <item>Native American Goods Store</item>
+        <item>Native American Restaurant</item>
+        <item>Natural Foods Store</item>
+        <item>Natural Gas Supplier</item>
+        <item>Natural History Museum</item>
+        <item>Natural Stone Exporter</item>
+        <item>Natural Stone Supplier</item>
+        <item>Natural Stone Wholesaler</item>
+        <item>Nature Preserve</item>
+        <item>Naturopathic Practitioner</item>
+        <item>Naval Base</item>
+        <item>Navarraise Restaurant</item>
+        <item>Neapolitan Restaurant</item>
+        <item>Needlework Shop</item>
+        <item>Neon Sign Shop</item>
+        <item>Neonatal Physician</item>
+        <item>Nepalese Restaurant</item>
+        <item>Nephrologist</item>
+        <item>Netball Club</item>
+        <item>Neurologist</item>
+        <item>Neurosurgeon</item>
+        <item>New Age Church</item>
+        <item>New England Restaurant</item>
+        <item>New American Restaurant</item>
+        <item>New Years Tree Market</item>
+        <item>New Zealand Restaurant</item>
+        <item>News Service</item>
+        <item>Newspaper Advertising Department</item>
+        <item>Newspaper Distribution</item>
+        <item>Newspaper Publisher</item>
+        <item>Newsstand</item>
+        <item>Nicaraguan Restaurant</item>
+        <item>Night Club</item>
+        <item>Night Market</item>
+        <item>Nissan Dealer</item>
+        <item>Non-Denominational Church</item>
+        <item>Non-Governmental Organization</item>
+        <item>Non-Profit Organization</item>
+        <item>Non Smoking Holiday Home</item>
+        <item>Noodle Shop</item>
+        <item>North African Restaurant</item>
+        <item>Northern Italian Restaurant</item>
+        <item>Norwegian Restaurant</item>
+        <item>Notaries Association</item>
+        <item>Notary Public</item>
+        <item>Notions Store</item>
+        <item>Novelties Wholesaler</item>
+        <item>Novelty Store</item>
+        <item>Nuclear Engineer</item>
+        <item>Nuclear Power Company</item>
+        <item>Nuclear Power Plant</item>
+        <item>Nudist Club</item>
+        <item>Nudist Park</item>
+        <item>Nuevo Latino Restaurant</item>
+        <item>Numerologist</item>
+        <item>Convent</item>
+        <item>Nursery School</item>
+        <item>Nursing Agency</item>
+        <item>Nursing Association</item>
+        <item>Nursing Home</item>
+        <item>Nursing School</item>
+        <item>Nut Store</item>
+        <item>Nutritionist</item>
+        <item>Nyonya Restaurant</item>
+        <item>Obanzai Restaurant</item>
+        <item>Observation Deck</item>
+        <item>Observatory</item>
+        <item>Women’s Health Clinic</item>
+        <item>Occupational Health Service</item>
+        <item>Occupational Medical Physician</item>
+        <item>Occupational Safety and Health</item>
+        <item>Occupational Therapist</item>
+        <item>Oden Restaurant</item>
+        <item>Off-road Race Track</item>
+        <item>Off Roading Area</item>
+        <item>Off Track Betting Shop</item>
+        <item>Offal Pot Cooking Restaurant</item>
+        <item>Office Accessories Wholesaler</item>
+        <item>Office Equipment Rental Service</item>
+        <item>Office Equipment Repair Service</item>
+        <item>Office Equipment Supplier</item>
+        <item>Office Furniture Store</item>
+        <item>Office of Vital Records</item>
+        <item>Office Refurbishment Service</item>
+        <item>Office Space Rental Agency</item>
+        <item>Office Supply Store</item>
+        <item>Office Supply Wholesaler</item>
+        <item>Oil and Gas Exploration Service</item>
+        <item>Oil Change Service</item>
+        <item>Oil and Natural Gas Company</item>
+        <item>Oil Field Equipment Supplier</item>
+        <item>Oil Refinery</item>
+        <item>Oil Store</item>
+        <item>Oil Wholesaler</item>
+        <item>Oilfield</item>
+        <item>Okonomiyaki Restaurant</item>
+        <item>Oldsmobile Dealer</item>
+        <item>Olive Oil Bottling Company</item>
+        <item>Olive Oil Cooperative</item>
+        <item>Olive Oil Manufacturer</item>
+        <item>Oncologist</item>
+        <item>Opel dealer</item>
+        <item>Open Air Museum</item>
+        <item>Open University</item>
+        <item>Opera Company</item>
+        <item>Opera House</item>
+        <item>Ophthalmologist</item>
+        <item>Ophthalmology Clinic</item>
+        <item>Optical Products Manufacturer</item>
+        <item>Optical Wholesaler</item>
+        <item>Optician</item>
+        <item>Optometrist</item>
+        <item>Oral Surgeon</item>
+        <item>Orchard</item>
+        <item>Orchestra</item>
+        <item>Orchid Farm</item>
+        <item>Orchid Grower</item>
+        <item>Organ Donation and Tissue Bank</item>
+        <item>Organic Drug Store</item>
+        <item>Organic Farm</item>
+        <item>Organic Food Store</item>
+        <item>Organic Restaurant</item>
+        <item>Organic Shop</item>
+        <item>Oriental Art Museum</item>
+        <item>Oriental Goods Store</item>
+        <item>Oriental Medicine Clinic</item>
+        <item>Oriental Medicine Store</item>
+        <item>Oriental Rug Store</item>
+        <item>Orphan Asylum</item>
+        <item>Orphanage</item>
+        <item>Orthodontist</item>
+        <item>Orthodox Church</item>
+        <item>Orthodox Synagogue</item>
+        <item>Orthopedic Clinic</item>
+        <item>Orthopedic Shoe Store</item>
+        <item>Orthopedic Surgeon</item>
+        <item>Orthoptist</item>
+        <item>Orthotics and Prosthetics Service</item>
+        <item>Osteopath</item>
+        <item>Otolaryngologist</item>
+        <item>Otolaryngology Clinic</item>
+        <item>Otolaryngology Hospital</item>
+        <item>Outboard Motor Store</item>
+        <item>Outdoor Activity Organiser</item>
+        <item>Outdoor Bath</item>
+        <item>Outdoor Clothing and Equipment Shop</item>
+        <item>Outdoor Equestrian Facility</item>
+        <item>Outdoor Furniture Store</item>
+        <item>Outdoor movie theater</item>
+        <item>Outdoor Sports Store</item>
+        <item>Outdoor Swimming Pool</item>
+        <item>Outerwear Store</item>
+        <item>Outlet Mall</item>
+        <item>Outlet Store</item>
+        <item>Oxygen Cocktail Spot</item>
+        <item>Oxygen Equipment Supplier</item>
+        <item>Oyster Bar Restaurant</item>
+        <item>Oyster Supplier</item>
+        <item>Pachinko Parlor</item>
+        <item>Pacific Rim Restaurant</item>
+        <item>Packaging Company</item>
+        <item>Packaging Machinery</item>
+        <item>Packaging Supply Store</item>
+        <item>Padel Club</item>
+        <item>Padel Court</item>
+        <item>Pagoda</item>
+        <item>Pain Control Clinic</item>
+        <item>Pain Management Physician</item>
+        <item>Paint Manufacturer</item>
+        <item>Paint Store</item>
+        <item>Paint Stripping Company</item>
+        <item>Paintball Center</item>
+        <item>Paintball Store</item>
+        <item>Painter</item>
+        <item>Painting</item>
+        <item>Painting Lessons</item>
+        <item>Painting Studio</item>
+        <item>Paintings Store</item>
+        <item>Pakistani Restaurant</item>
+        <item>Pallet Supplier</item>
+        <item>Pan-Asian Restaurant</item>
+        <item>Pan-Latin Restaurant</item>
+        <item>Pancake Restaurant</item>
+        <item>Paper Bag Supplier</item>
+        <item>Paper Distributor</item>
+        <item>Paper Exporter</item>
+        <item>Paper Mill</item>
+        <item>Paper Shredding Machine Supplier</item>
+        <item>Paper Store</item>
+        <item>Paraguayan Restaurant</item>
+        <item>Paralegal Services Provider</item>
+        <item>Parasailing Ride Service</item>
+        <item>Parish</item>
+        <item>Park</item>
+        <item>Park and Ride</item>
+        <item>Parking Garage</item>
+        <item>Parking Lot</item>
+        <item>Parking Lot for Bicycles</item>
+        <item>Parking Lot for Motorcycles</item>
+        <item>Parkour Spot</item>
+        <item>Parochial School</item>
+        <item>Parsi Temple</item>
+        <item>Part Time Daycare</item>
+        <item>Party Equipment Rental Service</item>
+        <item>Party Planner</item>
+        <item>Party Store</item>
+        <item>Passport Agent</item>
+        <item>Passport Office</item>
+        <item>Passport Photo Processor</item>
+        <item>Pasta Shop</item>
+        <item>Pastry Shop</item>
+        <item>Patent Attorney</item>
+        <item>Patent Office</item>
+        <item>Paternity Testing Service</item>
+        <item>Pathologist</item>
+        <item>Patients Support Association</item>
+        <item>Patio Enclosure Supplier</item>
+        <item>Patisserie</item>
+        <item>Paving Contractor</item>
+        <item>Paving Materials Supplier</item>
+        <item>Pawn Shop</item>
+        <item>Payphone</item>
+        <item>Payroll Service</item>
+        <item>Public Call Office Booth</item>
+        <item>Pedestrian Zone</item>
+        <item>Pediatric Cardiologist</item>
+        <item>Pediatric Dentist</item>
+        <item>Pediatric Ophthalmologist</item>
+        <item>Pediatrician</item>
+        <item>Pen Store</item>
+        <item>Pennsylvania Dutch Restaurant</item>
+        <item>Pension Office</item>
+        <item>Pentecostal Church</item>
+        <item>People S House</item>
+        <item>Performing Arts Group</item>
+        <item>Performing Arts Theater</item>
+        <item>Perfume Store</item>
+        <item>Perinatal Center</item>
+        <item>Periodontist</item>
+        <item>Permanent Make-up Clinic</item>
+        <item>Persian Restaurant</item>
+        <item>Personal Injury Attorney</item>
+        <item>Personal Trainer</item>
+        <item>Peruvian Restaurant</item>
+        <item>Pest Control Service</item>
+        <item>Pet Adoption Service</item>
+        <item>Pet Boarding Service</item>
+        <item>Pet Cemetery</item>
+        <item>Pet Friendly Accommodation</item>
+        <item>Pet Funeral Service</item>
+        <item>Pet Groomer</item>
+        <item>Pet Moving Service</item>
+        <item>Pet Sitter</item>
+        <item>Pet Store</item>
+        <item>Pet Supply Store</item>
+        <item>Pet Trainer</item>
+        <item>Petrochemical Engineer</item>
+        <item>Petroleum Products Company</item>
+        <item>Pharmaceutical Company</item>
+        <item>Pharmaceutical Lab</item>
+        <item>Pharmaceutical Products Wholesaler</item>
+        <item>Pharmacy</item>
+        <item>Philharmonic Hall</item>
+        <item>Pho Restaurant</item>
+        <item>Phone Repair Service</item>
+        <item>Photo Agency</item>
+        <item>Photo Lab</item>
+        <item>Photo Restoration Service</item>
+        <item>Photo Shop</item>
+        <item>Photocopiers Supplier</item>
+        <item>Photographer</item>
+        <item>Photography Class</item>
+        <item>Photography School</item>
+        <item>Photography Service</item>
+        <item>Photography Studio</item>
+        <item>Physiatrist</item>
+        <item>Physical Examination Center</item>
+        <item>Physical Fitness Program</item>
+        <item>Physician Referral Service</item>
+        <item>Physical Therapist</item>
+        <item>Physical Therapy Clinic</item>
+        <item>Physiotherapy Equip Supplier</item>
+        <item>Piano Bar</item>
+        <item>Piano Instructor</item>
+        <item>Piano Maker</item>
+        <item>Piano Moving Service</item>
+        <item>Piano Repair Service</item>
+        <item>Piano Store</item>
+        <item>Piano Tuning Service</item>
+        <item>Pick Your Own Farm Produce</item>
+        <item>Picnic Ground</item>
+        <item>Picture Frame Renovating and Restoring Service</item>
+        <item>Picture Frame Shop</item>
+        <item>Pie Shop</item>
+        <item>Pilates Studio</item>
+        <item>Pile Driver</item>
+        <item>Pilgrimage Place</item>
+        <item>Pinatas Supplier</item>
+        <item>Pinball Machine Supplier</item>
+        <item>Pine Furniture Shop</item>
+        <item>Pipe Supplier</item>
+        <item>Piste Vtt</item>
+        <item>Pizza Delivery</item>
+        <item>Pizza Restaurant</item>
+        <item>Pizza Takeaway</item>
+        <item>Place of Worship</item>
+        <item>Planetarium</item>
+        <item>Plant and Machinery Hire</item>
+        <item>Plant Nursery</item>
+        <item>Plast Window Store</item>
+        <item>Plasterer</item>
+        <item>Plastic Bag Supplier</item>
+        <item>Plastic Bags Wholesaler</item>
+        <item>Plastic Fabrication Company</item>
+        <item>Plastic Injection Molding Service</item>
+        <item>Plastic Products Supplier</item>
+        <item>Plastic Resin Manufacturer</item>
+        <item>Plastic Surgeon</item>
+        <item>Plastic Surgery Clinic</item>
+        <item>Plastic Wholesaler</item>
+        <item>Plating Service</item>
+        <item>Play School</item>
+        <item>Playground</item>
+        <item>Playground Equipment Supplier</item>
+        <item>Playgroup</item>
+        <item>Plumber</item>
+        <item>Plumbing Supply Store</item>
+        <item>Plus Size Clothing Store</item>
+        <item>Plywood Supplier</item>
+        <item>Pneumatic Tools Supplier</item>
+        <item>Po’ Boys Restaurant</item>
+        <item>Podiatrist</item>
+        <item>Police Academy</item>
+        <item>Police Supply Store</item>
+        <item>Polish Restaurant</item>
+        <item>Political Party</item>
+        <item>Polo Club</item>
+        <item>Polygraph Service</item>
+        <item>Polymer Supplier</item>
+        <item>Polynesian Restaurant</item>
+        <item>Polytechnic</item>
+        <item>Polythene and Plastic Sheeting Supplier</item>
+        <item>Pond Contractor</item>
+        <item>Pond Fish Supplier</item>
+        <item>Pond Supply Store</item>
+        <item>Pontiac Dealer</item>
+        <item>Pony Club</item>
+        <item>Pony Ride Service</item>
+        <item>Pool Academy</item>
+        <item>Pool Billard Club</item>
+        <item>Pool Cleaning Service</item>
+        <item>Pool Hall</item>
+        <item>Popcorn Store</item>
+        <item>Katsudon Restaurant</item>
+        <item>Porridge Restaurant</item>
+        <item>Porsche Dealer</item>
+        <item>Port Authority</item>
+        <item>Port Operating Company</item>
+        <item>Portable Building Manufacturer</item>
+        <item>Portable Toilet Supplier</item>
+        <item>Portrait Studio</item>
+        <item>Portuguese Restaurant</item>
+        <item>Post Office</item>
+        <item>Poster Store</item>
+        <item>Pottery Classes</item>
+        <item>Pottery Manufacturer</item>
+        <item>Pottery Store</item>
+        <item>Poultry Farm</item>
+        <item>Poultry Store</item>
+        <item>Powder Coating Service</item>
+        <item>Power Station</item>
+        <item>Power Plant Consultant</item>
+        <item>Power Plant Equipment Supplier</item>
+        <item>Prawn Fishing</item>
+        <item>Pre Gymnasium School</item>
+        <item>Precision Engineer</item>
+        <item>Prefabricated House Companies</item>
+        <item>Prefecture</item>
+        <item>Japanese Prefecture Government Office</item>
+        <item>Pregnancy Care Center</item>
+        <item>Preparatory School</item>
+        <item>Presbyterian Church</item>
+        <item>Preschool</item>
+        <item>Press Advisory</item>
+        <item>Pressure Washing Service</item>
+        <item>Pretzel Store</item>
+        <item>Priest</item>
+        <item>Primary School</item>
+        <item>Print Shop</item>
+        <item>Printed Music Publisher</item>
+        <item>Printer Ink Refill Store</item>
+        <item>Printer Repair Service</item>
+        <item>Printing Equipment and Supplies</item>
+        <item>Printing Equipment Supplier</item>
+        <item>Prison</item>
+        <item>Private College</item>
+        <item>Private Equity Firm</item>
+        <item>Private Golf Course</item>
+        <item>Homestay</item>
+        <item>Private Hospital</item>
+        <item>Private Investigator</item>
+        <item>Private School</item>
+        <item>Private Sector Bank</item>
+        <item>Private Tutor</item>
+        <item>Private University</item>
+        <item>Probation Office</item>
+        <item>Process Server</item>
+        <item>Proctologist</item>
+        <item>Produce Market</item>
+        <item>Produce Wholesaler</item>
+        <item>Producteur de Champagne</item>
+        <item>Producteur de Foie Gras</item>
+        <item>Producteur Eau Minerale</item>
+        <item>Professional and Hobby Associations</item>
+        <item>Professional Organizer</item>
+        <item>Promenade</item>
+        <item>Promotional Products Supplier</item>
+        <item>Propane Supplier</item>
+        <item>Propeller Shop</item>
+        <item>Property Administrator</item>
+        <item>Property Investment</item>
+        <item>Property Maintenance</item>
+        <item>Property Management Company</item>
+        <item>Land Registry Office</item>
+        <item>Prosthetics</item>
+        <item>Protective Clothing Supplier</item>
+        <item>Protestant Church</item>
+        <item>Provence Restaurant</item>
+        <item>Provincial Council</item>
+        <item>Psychiatric Hospital</item>
+        <item>Psychiatrist</item>
+        <item>Psychic</item>
+        <item>Psychoanalyst</item>
+        <item>Psychologist</item>
+        <item>Psychoneurological Specialized Clinic</item>
+        <item>Psychopedagogy Clinic</item>
+        <item>Psychosomatic Medical Practitioner</item>
+        <item>Psychotherapist</item>
+        <item>Pub</item>
+        <item>Public Amenity House</item>
+        <item>Public Bath</item>
+        <item>Public Bathroom</item>
+        <item>Public Defender’s Office</item>
+        <item>Public Female Bathroom</item>
+        <item>Public Golf Course</item>
+        <item>Public Health Department</item>
+        <item>Public Housing</item>
+        <item>Public Library</item>
+        <item>Public Male Bathroom</item>
+        <item>Public Medical Center</item>
+        <item>Public Parking Space</item>
+        <item>Public Prosecutors Office</item>
+        <item>Public Relations Firm</item>
+        <item>Public Safety Office</item>
+        <item>Public Sauna</item>
+        <item>Public School</item>
+        <item>Public Sector Bank</item>
+        <item>Public Swimming Pool</item>
+        <item>Public University</item>
+        <item>Public Webcam</item>
+        <item>Public Wheelchair-Accessible Bathroom</item>
+        <item>Public Works Department</item>
+        <item>Publisher</item>
+        <item>Puerto Rican Restaurant</item>
+        <item>Pulmonologist</item>
+        <item>Pump Supplier</item>
+        <item>Pumping Equipment and Service</item>
+        <item>Pumpkin Patch</item>
+        <item>Punjabi Restaurant</item>
+        <item>Puppet Theater</item>
+        <item>PVC Industry</item>
+        <item>PVC Windows Supplier</item>
+        <item>Qing Fang Market Place</item>
+        <item>Quad Rental Service</item>
+        <item>Quaker Church</item>
+        <item>Quantity Surveyor</item>
+        <item>Quarry</item>
+        <item>Québécois Restaurant</item>
+        <item>Quilt Shop</item>
+        <item>Race Car Dealer</item>
+        <item>Racecourse</item>
+        <item>Racing Car Parts Store</item>
+        <item>Raclette Restaurant</item>
+        <item>Racquetball Club</item>
+        <item>Radiator Repair Service</item>
+        <item>Radiator Shop</item>
+        <item>Radio Broadcaster</item>
+        <item>Radiologist</item>
+        <item>Raft Trip Outfitter</item>
+        <item>Rafting</item>
+        <item>Rail Museum</item>
+        <item>Railing Contractor</item>
+        <item>Railroad Company</item>
+        <item>Railroad Contractor</item>
+        <item>Railroad Equipment Supplier</item>
+        <item>Railroad Ties Supplier</item>
+        <item>Railway Services</item>
+        <item>Rainwater Tank Supplier</item>
+        <item>Ramen Restaurant</item>
+        <item>Ranch</item>
+        <item>Rare Book Store</item>
+        <item>Raw Food Restaurant</item>
+        <item>Ready Mix Concrete Supplier</item>
+        <item>Real Estate Agency</item>
+        <item>Real Estate Agents</item>
+        <item>Real Estate Appraiser</item>
+        <item>Real Estate Attorney</item>
+        <item>Real Estate Auctioneer</item>
+        <item>Real Estate Consultant</item>
+        <item>Real Estate Developer</item>
+        <item>Real Estate Fair</item>
+        <item>Real Estate Rental Agency</item>
+        <item>Real Estate School</item>
+        <item>Real Estate Surveyor</item>
+        <item>Reclamation Centre</item>
+        <item>Record Company</item>
+        <item>Records Storage Facility</item>
+        <item>Record Store</item>
+        <item>Recording Studio</item>
+        <item>Recreation Center</item>
+        <item>Recruiter</item>
+        <item>Rectory</item>
+        <item>Recycling Center</item>
+        <item>Reenactment Site</item>
+        <item>Reflexologist</item>
+        <item>Reform Synagogue</item>
+        <item>Reformed Church</item>
+        <item>Refrigerated Transport Service</item>
+        <item>Refrigerator Repair Service</item>
+        <item>Refrigerator Store</item>
+        <item>Refugee Camp</item>
+        <item>Regional Airport</item>
+        <item>Regional Council</item>
+        <item>Regional Government Office</item>
+        <item>Registered General Nurse</item>
+        <item>Registration Chamber</item>
+        <item>Registration Office</item>
+        <item>Registry Office</item>
+        <item>Rehabilitation Center</item>
+        <item>Reiki Therapist</item>
+        <item>Religious Book Store</item>
+        <item>Religious Destination</item>
+        <item>Religious Goods Store</item>
+        <item>Religious Institution</item>
+        <item>Religious Organization</item>
+        <item>Religious School</item>
+        <item>Religious Seminary</item>
+        <item>Remodeler</item>
+        <item>Renault dealer</item>
+        <item>Renter’s Insurance Agency</item>
+        <item>Repair Service</item>
+        <item>Reproductive Health Clinic</item>
+        <item>Reptile Store</item>
+        <item>Research and Product Development</item>
+        <item>Research Engineer</item>
+        <item>Research Foundation</item>
+        <item>Research Institute</item>
+        <item>Resident Registration Office</item>
+        <item>Residential College</item>
+        <item>Residents Association</item>
+        <item>Resort</item>
+        <item>Rest Stop</item>
+        <item>Restaurant</item>
+        <item>Brasserie</item>
+        <item>Restaurant Supply Store</item>
+        <item>Resume Service</item>
+        <item>Retail Space Rental Agency</item>
+        <item>Retaining Wall Supplier</item>
+        <item>Retirement Community</item>
+        <item>Retirement Home</item>
+        <item>Retreat Center</item>
+        <item>Rheumatologist</item>
+        <item>Rice Cracker Shop</item>
+        <item>Rice Mill</item>
+        <item>Rice Restaurant</item>
+        <item>Rice Shop</item>
+        <item>Rice Wholesaler</item>
+        <item>River Port</item>
+        <item>Road Construction Company</item>
+        <item>Road Construction Machine Repair Service</item>
+        <item>Road Cycling</item>
+        <item>Road Safety Town</item>
+        <item>Roads Ports and Canals Engineers Association</item>
+        <item>Rock Climbing</item>
+        <item>Rock Climbing Gym</item>
+        <item>Rock Climbing Instructor</item>
+        <item>Rock Landscaping Contractor</item>
+        <item>Rock Music Club</item>
+        <item>Rock Shop</item>
+        <item>Rodeo</item>
+        <item>Rolled Metal Products Supplier</item>
+        <item>Roller Coaster</item>
+        <item>Roller Skating Club</item>
+        <item>Roller Skating Rink</item>
+        <item>Roman Restaurant</item>
+        <item>Romanian Restaurant</item>
+        <item>Roofing Contractor</item>
+        <item>Roofing Supply Store</item>
+        <item>Roommate Referral Service</item>
+        <item>Rowing Area</item>
+        <item>Rowing Club</item>
+        <item>Rsl Club</item>
+        <item>Rubber Products Supplier</item>
+        <item>Rubber Stamp Store</item>
+        <item>Rug Store</item>
+        <item>Rugby</item>
+        <item>Rugby Club</item>
+        <item>Rugby Field</item>
+        <item>Rugby League Club</item>
+        <item>Rugby Store</item>
+        <item>Running Store</item>
+        <item>Russian Orthodox Church</item>
+        <item>Russian Restaurant</item>
+        <item>Rustic Furniture Store</item>
+        <item>RV Dealer</item>
+        <item>RV Park</item>
+        <item>Recreational Vehicle Rental Agency</item>
+        <item>RV Repair Shop</item>
+        <item>RV Storage Facility</item>
+        <item>RV Supply Store</item>
+        <item>Saab Dealer</item>
+        <item>Sacem</item>
+        <item>Saddlery</item>
+        <item>Safe and Vault Shop</item>
+        <item>Safety Equipment Supplier</item>
+        <item>Sailing Club</item>
+        <item>Sailing Event Area</item>
+        <item>Sailing School</item>
+        <item>Sailmaker</item>
+        <item>Sake Brewery</item>
+        <item>Salad Shop</item>
+        <item>Salsa Bar</item>
+        <item>Salsa Classes</item>
+        <item>Salvadoran Restaurant</item>
+        <item>Salvage Dealer</item>
+        <item>Salvage Yard</item>
+        <item>Samba School</item>
+        <item>Sambo School</item>
+        <item>Sambodrome</item>
+        <item>Sand and Gravel Supplier</item>
+        <item>Sand Plant</item>
+        <item>Sandblasting Service</item>
+        <item>Sandwich Shop</item>
+        <item>Sanitary Inspection</item>
+        <item>Sanitation Service</item>
+        <item>Satellite Communication Service</item>
+        <item>Saturn Dealer</item>
+        <item>Sauna</item>
+        <item>Sauna Club</item>
+        <item>Sauna Store</item>
+        <item>Savings Bank</item>
+        <item>Saw Mill</item>
+        <item>Saw Sharpening Service</item>
+        <item>Scaffolder</item>
+        <item>Scaffolding Rental Service</item>
+        <item>Scale Model Club</item>
+        <item>Model Shop</item>
+        <item>Scale Repair Service</item>
+        <item>Scale Supplier</item>
+        <item>Scandinavian Restaurant</item>
+        <item>Scenic Spot</item>
+        <item>School</item>
+        <item>School Administrator</item>
+        <item>School Bus Service</item>
+        <item>School Center</item>
+        <item>School District Office</item>
+        <item>School For The Deaf</item>
+        <item>School House</item>
+        <item>School Lunch Center</item>
+        <item>School Supply Store</item>
+        <item>School Youth Hostel</item>
+        <item>Science Academy</item>
+        <item>Science Museum</item>
+        <item>Scientific Equipment Supplier</item>
+        <item>Scooter Rental Service</item>
+        <item>Scooter Repair Shop</item>
+        <item>Scout Hall</item>
+        <item>Scout Home</item>
+        <item>Scouting</item>
+        <item>Scrap Metal Dealer</item>
+        <item>Scrapbooking Store</item>
+        <item>Screen Printer</item>
+        <item>Screen Printing Shop</item>
+        <item>Screen Printing Supply Store</item>
+        <item>Screen Repair Service</item>
+        <item>Screen Store</item>
+        <item>Screw Supplier</item>
+        <item>SCUBA Instructor</item>
+        <item>SCUBA Tour Agency</item>
+        <item>Sculptor</item>
+        <item>Sculpture</item>
+        <item>Sculpture Museum</item>
+        <item>Seafood Donburi Restaurant</item>
+        <item>Seafood Farm</item>
+        <item>Seafood Market</item>
+        <item>Seafood Restaurant</item>
+        <item>Seafood Wholesaler</item>
+        <item>Seal Shop</item>
+        <item>Seaplane Base</item>
+        <item>Seasonal Goods Store</item>
+        <item>Second Hand Store</item>
+        <item>Secondary School Three</item>
+        <item>Security Guard Service</item>
+        <item>Security Service</item>
+        <item>Security System Installer</item>
+        <item>Security System Supplier</item>
+        <item>Seed Supplier</item>
+        <item>Seitai</item>
+        <item>Self-Catering Accommodation</item>
+        <item>Self Defense School</item>
+        <item>Self Service Car Wash</item>
+        <item>Self Service Restaurant</item>
+        <item>Self-Storage Facility</item>
+        <item>Semi Conductor Supplier</item>
+        <item>Seminary</item>
+        <item>Senior Citizen Center</item>
+        <item>Aged Care</item>
+        <item>Senior High School</item>
+        <item>Septic System Service</item>
+        <item>Serbian Restaurant</item>
+        <item>Serviced Accommodation</item>
+        <item>Seventh-day Adventist Church</item>
+        <item>Sewage Disposal Service</item>
+        <item>Sewage Treatment Plant</item>
+        <item>Sewing Company</item>
+        <item>Sewing Machine Repair Service</item>
+        <item>Sewing Machine Store</item>
+        <item>Sewing Shop</item>
+        <item>Sexologist</item>
+        <item>Seychelles Restaurant</item>
+        <item>Sukiyaki and Shabu Shabu Restaurant</item>
+        <item>Shabu-shabu Restaurant</item>
+        <item>Shan Dong Restaurant</item>
+        <item>Shanghainese Restaurant</item>
+        <item>Sharpening Service</item>
+        <item>Shed Builder</item>
+        <item>Sheep Shearer</item>
+        <item>Sheepskin and Wool Products Supplier</item>
+        <item>Sheepskin Coat Store</item>
+        <item>Sheet Metal Contractor</item>
+        <item>Sheet Music Store</item>
+        <item>Shelter</item>
+        <item>Sheltered Housing</item>
+        <item>Shelving Store</item>
+        <item>Sheriff’s Department</item>
+        <item>Shinkin Bank</item>
+        <item>Shinto Shrine</item>
+        <item>Ship Building</item>
+        <item>Shipbuilding and Repair Company</item>
+        <item>Shipping and Mailing Service</item>
+        <item>Shipping Company</item>
+        <item>Shipping Equipment Industry</item>
+        <item>Shipping Service</item>
+        <item>Shipyard</item>
+        <item>Shochu Brewery</item>
+        <item>Shoe Factory</item>
+        <item>Shoe Repair Shop</item>
+        <item>Shoe Shining Service</item>
+        <item>Shoe Store</item>
+        <item>Footwear Wholesaler</item>
+        <item>Shogi Lesson</item>
+        <item>Shooting Event Area</item>
+        <item>Shooting Range</item>
+        <item>Shop Supermarket Furniture Store</item>
+        <item>Shopfitter</item>
+        <item>Shopping Mall</item>
+        <item>Short Term Apartment Rental Agency</item>
+        <item>Shower Door Shop</item>
+        <item>Shower Door Supplier</item>
+        <item>Shredding Service</item>
+        <item>Shrimp Farm</item>
+        <item>Shrine</item>
+        <item>Sichuan Restaurant</item>
+        <item>Sicilian Restaurant</item>
+        <item>Siding Contractor</item>
+        <item>Sightseeing Tour Agency</item>
+        <item>Sign Shop</item>
+        <item>Gurudwara</item>
+        <item>Silk Plant Shop</item>
+        <item>Silk Store</item>
+        <item>Silversmith</item>
+        <item>Singaporean Restaurant</item>
+        <item>Singing Telegram Service</item>
+        <item>Single Sex Secondary School</item>
+        <item>Singles Organization</item>
+        <item>Sixth Form College</item>
+        <item>Skate Sharpening Service</item>
+        <item>Skate Shop</item>
+        <item>Skateboard Park</item>
+        <item>Skateboard Shop</item>
+        <item>Skating Instructor</item>
+        <item>Skeet Shooting Range</item>
+        <item>Kushiage and Kushikatsu Restaurant</item>
+        <item>Ski Club</item>
+        <item>Ski Rental Service</item>
+        <item>Ski Repair Service</item>
+        <item>Ski Resort</item>
+        <item>Ski School</item>
+        <item>Ski Shop</item>
+        <item>Skin Care Clinic</item>
+        <item>Skin Care Products Vending Machine</item>
+        <item>Skittle Alley</item>
+        <item>Skittle Club</item>
+        <item>Skydiving Center</item>
+        <item>Skylight Contractor</item>
+        <item>Slaughterhouse</item>
+        <item>Sleep Clinic</item>
+        <item>Small Appliance Repair Service</item>
+        <item>Small Claims Assistance Service</item>
+        <item>Small Engine Repair Service</item>
+        <item>Small Plates Restaurant</item>
+        <item>Smart Shop</item>
+        <item>Smog Inspection Station</item>
+        <item>Snack Bar</item>
+        <item>Snow Removal Service</item>
+        <item>Snowboard Rental Service</item>
+        <item>Snowboard Shop</item>
+        <item>Snowmobile Dealer</item>
+        <item>Snowmobile Rental Service</item>
+        <item>Soapland</item>
+        <item>Soba Noodle Shop</item>
+        <item>Soccer Club</item>
+        <item>Soccer Field</item>
+        <item>Soccer Practice</item>
+        <item>Soccer Store</item>
+        <item>Social Club</item>
+        <item>Social Security Attorney</item>
+        <item>Social Security Financial Department</item>
+        <item>Social Security Office</item>
+        <item>Social Services Organization</item>
+        <item>Social Welfare Center</item>
+        <item>Social Worker</item>
+        <item>Societe de Flocage</item>
+        <item>Sod Supplier</item>
+        <item>Sofa Store</item>
+        <item>Soft Drinks Shop</item>
+        <item>Suppon Restaurant</item>
+        <item>Softball Club</item>
+        <item>Softball Field</item>
+        <item>Software Company</item>
+        <item>Software Training Institute</item>
+        <item>Soil Testing Service</item>
+        <item>Sokol House</item>
+        <item>Solar Energy Company</item>
+        <item>Solar Energy Contractor</item>
+        <item>Solar Energy Equipment Supplier</item>
+        <item>Solar Hot Water System Supplier</item>
+        <item>Solar Photovoltaic Power Plant</item>
+        <item>Solid Fuel Company</item>
+        <item>Solid Waste Engineer</item>
+        <item>Soul Food Restaurant</item>
+        <item>Soup Kitchen</item>
+        <item>Soup Restaurant</item>
+        <item>Soup Shop</item>
+        <item>South African Restaurant</item>
+        <item>South American Restaurant</item>
+        <item>South Asian Restaurant</item>
+        <item>Southeast Asian Restaurant</item>
+        <item>Southern Italian Restaurant</item>
+        <item>Southern Restaurant (US)</item>
+        <item>Southwest France Restaurant</item>
+        <item>Southwestern Restaurant (US)</item>
+        <item>Souvenir Manufacturer</item>
+        <item>Souvenir Store</item>
+        <item>Soy Sauce Maker</item>
+        <item>Spa</item>
+        <item>Spa and Health Club</item>
+        <item>Spa Garden</item>
+        <item>Spa Resort</item>
+        <item>Spa Town</item>
+        <item>Spanish Language School</item>
+        <item>Spanish Restaurant</item>
+        <item>Special Education School</item>
+        <item>Specialist Hospital</item>
+        <item>Specialized Clinic</item>
+        <item>Specialized hospital</item>
+        <item>Speech Pathologist</item>
+        <item>Sperm Bank</item>
+        <item>Spice Store</item>
+        <item>Spices Exporter</item>
+        <item>Spices Wholesalers</item>
+        <item>Spiritist Center</item>
+        <item>Sport Tour Agency</item>
+        <item>Sporting Goods Store</item>
+        <item>Sports Accessories Wholesaler</item>
+        <item>Sports Bar</item>
+        <item>Sports Card Store</item>
+        <item>Sports Club</item>
+        <item>Sports Complex</item>
+        <item>Sports Equipment Rental Service</item>
+        <item>Sports Massage Therapist</item>
+        <item>Sports Medicine Clinic</item>
+        <item>Sports Medicine Physician</item>
+        <item>Sports Memorabilia Store</item>
+        <item>Sports Nutrition Store</item>
+        <item>Sports School</item>
+        <item>Sportswear Store</item>
+        <item>Sportwear Manufacturer</item>
+        <item>Spring Supplier</item>
+        <item>Squash Club</item>
+        <item>Squash Court</item>
+        <item>Sri Lankan Restaurant</item>
+        <item>Stable</item>
+        <item>Stadium</item>
+        <item>Stage</item>
+        <item>Stage Lighting Equipment Supplier</item>
+        <item>Stained Glass Studio</item>
+        <item>Stainless Steel Plant</item>
+        <item>Stair Contractor</item>
+        <item>Stall Installation Service</item>
+        <item>Stamp Collectors Club</item>
+        <item>Stamp Shop</item>
+        <item>Stand Bar</item>
+        <item>Staple Food Package</item>
+        <item>State</item>
+        <item>State Archive</item>
+        <item>State Department Agricultural Development</item>
+        <item>State Department Agriculture Food Supply</item>
+        <item>State Department Civil Defense</item>
+        <item>State Department Communication</item>
+        <item>State Department Finance</item>
+        <item>State Department for Social Development</item>
+        <item>State Department Housing and Urban Development</item>
+        <item>State Department of Environment</item>
+        <item>State Department of Tourism</item>
+        <item>State Department of Transportation</item>
+        <item>State Department Science Technology</item>
+        <item>State Department Social Defense</item>
+        <item>State Dept of Culture</item>
+        <item>State Dept of Sports</item>
+        <item>State Employment Department</item>
+        <item>State Government Office</item>
+        <item>State Liquor Store</item>
+        <item>State Office of Education</item>
+        <item>State Owned Farm</item>
+        <item>State Park</item>
+        <item>State Police</item>
+        <item>State Social Development</item>
+        <item>Stationery Manufacturer</item>
+        <item>Stationery Store</item>
+        <item>Stationery Wholesaler</item>
+        <item>Statuary</item>
+        <item>Std Clinic</item>
+        <item>STD Testing Service</item>
+        <item>Steak House</item>
+        <item>Steamboat Restaurant</item>
+        <item>Steamed Bun Shop</item>
+        <item>Steel Construction Company</item>
+        <item>Steel Distributor</item>
+        <item>Steel Drum Supplier</item>
+        <item>Steel Erector</item>
+        <item>Steel Fabricator</item>
+        <item>Steel Framework Contractor</item>
+        <item>Steelwork Design Company</item>
+        <item>Steelwork Manufacturer</item>
+        <item>Stereo Rental Store</item>
+        <item>Stereo Repair Service</item>
+        <item>Home Audio Store</item>
+        <item>Sticker Manufacturer</item>
+        <item>Stitching Class</item>
+        <item>Stock Broker</item>
+        <item>Stock Exchange Building</item>
+        <item>Stone Carving</item>
+        <item>Stone Cutter</item>
+        <item>Stone Supplier</item>
+        <item>Storage Facility</item>
+        <item>Store</item>
+        <item>Store Equipment Supplier</item>
+        <item>Stove Builder</item>
+        <item>Stringed instrument maker</item>
+        <item>Structural Engineer</item>
+        <item>Stucco Contractor</item>
+        <item>Student Career Counseling Office</item>
+        <item>Student Dormitory</item>
+        <item>Student Housing Center</item>
+        <item>Student Union</item>
+        <item>Students Parents Association</item>
+        <item>Students Support Association</item>
+        <item>Study at Home School</item>
+        <item>Studying Center</item>
+        <item>Stylist</item>
+        <item>Subaru Dealer</item>
+        <item>Suburban Train Line</item>
+        <item>Sugar Factory</item>
+        <item>Sugar Shack</item>
+        <item>Sukiyaki Restaurant</item>
+        <item>Summer Camp</item>
+        <item>Summer Toboggan Run</item>
+        <item>Sundae Restaurant</item>
+        <item>Sunglasses Store</item>
+        <item>Sunroom Contractor</item>
+        <item>Super Public Bath</item>
+        <item>Superannuation Consultant</item>
+        <item>Superfund Site</item>
+        <item>Supermarket</item>
+        <item>Surf Lifesaving Club</item>
+        <item>Surf School</item>
+        <item>Surf Shop</item>
+        <item>Surgeon</item>
+        <item>Surgical Center</item>
+        <item>Surgical Products Wholesaler</item>
+        <item>Surgical Supply Store</item>
+        <item>Surinamese Restaurant</item>
+        <item>Surplus Store</item>
+        <item>Surveyor</item>
+        <item>Sushi Restaurant</item>
+        <item>Suzuki Dealer</item>
+        <item>Suzuki Motorcycle Dealer</item>
+        <item>Swedish Restaurant</item>
+        <item>Swim Club</item>
+        <item>Swimming Basin</item>
+        <item>Swimming Competition</item>
+        <item>Swimming Facility</item>
+        <item>Swimming Instructor</item>
+        <item>Swimming Lake</item>
+        <item>Swimming Pool</item>
+        <item>Swimming Pool Contractor</item>
+        <item>Swimming Pool Repair Service</item>
+        <item>Swimming Pool Supply Store</item>
+        <item>Swimming School</item>
+        <item>Swimwear Store</item>
+        <item>Swiss Restaurant</item>
+        <item>Synagogue</item>
+        <item>Synchronized Swimming</item>
+        <item>Syrian Restaurant</item>
+        <item>T-shirt Company</item>
+        <item>T-shirt Store</item>
+        <item>Table and Chair Rental Service</item>
+        <item>Table Tennis Club</item>
+        <item>Table Tennis Facility</item>
+        <item>Table Tennis Supply Store</item>
+        <item>Tack Shop</item>
+        <item>Taco Restaurant</item>
+        <item>Tae Kwon Do Comp Area</item>
+        <item>Taekwondo School</item>
+        <item>Tag Agency</item>
+        <item>Tai Chi School</item>
+        <item>Tailor</item>
+        <item>Taiwanese Restaurant</item>
+        <item>Takoyaki Restaurant</item>
+        <item>Talent Agency</item>
+        <item>Tamale Shop</item>
+        <item>Tannery</item>
+        <item>Tanning Salon</item>
+        <item>Taoist Temple</item>
+        <item>Tapas Bar</item>
+        <item>Tapas Restaurant</item>
+        <item>Tatami Store</item>
+        <item>Tattoo and Piercing Shop</item>
+        <item>Tattoo Removal Service</item>
+        <item>Tattoo Shop</item>
+        <item>Tax Assessor</item>
+        <item>Tax Attorney</item>
+        <item>Tax Collector’s Office</item>
+        <item>Tax Consultant</item>
+        <item>Tax Department</item>
+        <item>Tax Preparation</item>
+        <item>Tax Preparation Service</item>
+        <item>Taxi Service</item>
+        <item>Taxi Stand</item>
+        <item>Taxidermist</item>
+        <item>Tb Clinic</item>
+        <item>Tea Exporter</item>
+        <item>Tea House</item>
+        <item>Tea Manufacturer</item>
+        <item>Tea Market Place</item>
+        <item>Tea Store</item>
+        <item>Tea Wholesaler</item>
+        <item>Teacher College</item>
+        <item>Technical School</item>
+        <item>Technical Service</item>
+        <item>Technical University</item>
+        <item>Technology Museum</item>
+        <item>Technology Park</item>
+        <item>Teeth Whitening Service</item>
+        <item>Telecommunication School</item>
+        <item>Telecommunications Contractor</item>
+        <item>Telecommunications Engineer</item>
+        <item>Telecommunications Equipment Supplier</item>
+        <item>Telecommunications Service Provider</item>
+        <item>Telemarketing Service</item>
+        <item>Telephone Answering Service</item>
+        <item>Telephone Company</item>
+        <item>Telephone Exchange</item>
+        <item>Telescope Store</item>
+        <item>Television Repair Service</item>
+        <item>Television Station</item>
+        <item>Temp Agency</item>
+        <item>Tempura Donburi Restaurant</item>
+        <item>Tempura Restaurant</item>
+        <item>Tenant Ownership</item>
+        <item>Tenant’s Union</item>
+        <item>Tennis Club</item>
+        <item>Tennis Court</item>
+        <item>Tennis Court Construction Company</item>
+        <item>Tennis Instructor</item>
+        <item>Tennis Store</item>
+        <item>Tent Rental Service</item>
+        <item>Teppanyaki Restaurant</item>
+        <item>Tex-Mex Restaurant</item>
+        <item>Textile Engineer</item>
+        <item>Textile Exporter</item>
+        <item>Textile Mill</item>
+        <item>Thai Massage Therapist</item>
+        <item>Thai Restaurant</item>
+        <item>Theater Company</item>
+        <item>Theater Production</item>
+        <item>Theater Supply Store</item>
+        <item>Theatrical Costume Supplier</item>
+        <item>Theme Park</item>
+        <item>Thermal Baths</item>
+        <item>Thermal Energy Company</item>
+        <item>Thread Supplier</item>
+        <item>Threads and Yarns Wholesaler</item>
+        <item>Thrift Store</item>
+        <item>Tile Contractor</item>
+        <item>Tile Manufacturer</item>
+        <item>Tile Store</item>
+        <item>Time and Temperature Announcement Service</item>
+        <item>Timeshare Agency</item>
+        <item>Tyre Manufacturer</item>
+        <item>Tire Shop</item>
+        <item>Title Company</item>
+        <item>Tobacco Exporter</item>
+        <item>Tobacco Shop</item>
+        <item>Tobacco Supplier</item>
+        <item>Tofu Restaurant</item>
+        <item>Tofu Shop</item>
+        <item>Toiletries Store</item>
+        <item>Toll Road Rest Stop</item>
+        <item>Toll Booth</item>
+        <item>Toner Cartridge Supplier</item>
+        <item>Tongue Restaurant</item>
+        <item>Tonkatsu Restaurant</item>
+        <item>Tool and Die Shop</item>
+        <item>Tool Grinding Service</item>
+        <item>Tool Manufacturer</item>
+        <item>Tool Rental Service</item>
+        <item>Tool Repair Shop</item>
+        <item>Tool Store</item>
+        <item>Tool Wholesaler</item>
+        <item>Toolroom</item>
+        <item>Topography Company</item>
+        <item>Topsoil Supplier</item>
+        <item>Tour Agency</item>
+        <item>Tour Operator</item>
+        <item>Tourist Attraction</item>
+        <item>Tourist Information Center</item>
+        <item>Tower Communication Service</item>
+        <item>Towing Equipment Provider</item>
+        <item>Towing Service</item>
+        <item>Townhouse Complex</item>
+        <item>Toy and Game Manufacturer</item>
+        <item>Toy Library</item>
+        <item>Toy Manufacturer</item>
+        <item>Toy Museum</item>
+        <item>Toy Store</item>
+        <item>Toyota Dealer</item>
+        <item>Tractor Dealer</item>
+        <item>Tractor Equipment Supplier</item>
+        <item>Tractor Repair Shop</item>
+        <item>Trade Fair Construction Company</item>
+        <item>Trade School</item>
+        <item>Trading Card Store</item>
+        <item>Traditional Costume Club</item>
+        <item>Traditional Kostume Store</item>
+        <item>Traditional Market</item>
+        <item>Traditional Restaurant</item>
+        <item>Traditional Teahouse</item>
+        <item>Traditional American Restaurant</item>
+        <item>Traffic Officer</item>
+        <item>Traffic Police Station</item>
+        <item>Trailer Dealer</item>
+        <item>Trailer Hitch Supplier</item>
+        <item>Trailer Manufacturer</item>
+        <item>Trailer Rental Service</item>
+        <item>Trailer Repair Shop</item>
+        <item>Trailer Supply Store</item>
+        <item>Train Repairing Center</item>
+        <item>Train Ticket Agency</item>
+        <item>Train Ticket Counter</item>
+        <item>Train yard</item>
+        <item>Training Centre</item>
+        <item>Training School</item>
+        <item>Transcription Service</item>
+        <item>Translator</item>
+        <item>Transmission Shop</item>
+        <item>Transportation Escort Service</item>
+        <item>Transportation Service</item>
+        <item>Travel Agency</item>
+        <item>Travel Clinic</item>
+        <item>Travellers Lodge</item>
+        <item>Tree Farm</item>
+        <item>Tree Service</item>
+        <item>Trial Attorney</item>
+        <item>Tribal Headquarters</item>
+        <item>Trinity Church</item>
+        <item>Triumph Motorcycle Dealer</item>
+        <item>Trophy Shop</item>
+        <item>Tropical Fish Store</item>
+        <item>Truck Accessories Store</item>
+        <item>Truck Dealer</item>
+        <item>Truck Farmer</item>
+        <item>Truck Parts Supplier</item>
+        <item>Truck Rental Agency</item>
+        <item>Truck Repair Shop</item>
+        <item>Truck Stop</item>
+        <item>Truck Topper Supplier</item>
+        <item>Truck Wash</item>
+        <item>Trucking Company</item>
+        <item>Trucking School</item>
+        <item>Truss Manufacturer</item>
+        <item>Trust Bank</item>
+        <item>Tsukigime Parking Lot</item>
+        <item>Tune Up Supplier</item>
+        <item>Tuning Automobile</item>
+        <item>Tunisian Restaurant</item>
+        <item>Turf Supplier</item>
+        <item>Turkish Restaurant</item>
+        <item>Turkmen Restaurant</item>
+        <item>Turnery</item>
+        <item>Tuscan Restaurant</item>
+        <item>Tutoring Service</item>
+        <item>Tuxedo Shop</item>
+        <item>Typewriter Repair Service</item>
+        <item>Typewriter Supplier</item>
+        <item>Typing Service</item>
+        <item>Udon Noodle Restaurant</item>
+        <item>Ukrainian Restaurant</item>
+        <item>Unagi Restaurant</item>
+        <item>Underwear Store</item>
+        <item>Unemployment Insurance Consultant</item>
+        <item>Unemployment Office</item>
+        <item>Unfinished Furniture Store</item>
+        <item>Uniform Store</item>
+        <item>Hairdresser</item>
+        <item>Unitarian Universalist Church</item>
+        <item>United Church of Canada</item>
+        <item>United Church of Christ</item>
+        <item>United Methodist Church</item>
+        <item>United States Armed Forces Base</item>
+        <item>Unity Church</item>
+        <item>University</item>
+        <item>University Department</item>
+        <item>University Hospital</item>
+        <item>University Library</item>
+        <item>Upholstery Cleaning Service</item>
+        <item>Upholstery Shop</item>
+        <item>Urban Planning Department</item>
+        <item>Urgent care center</item>
+        <item>Urologist</item>
+        <item>Urology Clinic</item>
+        <item>Uruguayan Restaurant</item>
+        <item>Pacific Northwest Restaurant (US)</item>
+        <item>Used Appliance Store</item>
+        <item>Used Auto Parts Store</item>
+        <item>Used Bicycle Shop</item>
+        <item>Used Book Store</item>
+        <item>Used Car Dealer</item>
+        <item>Used CD Store</item>
+        <item>Used Clothing Store</item>
+        <item>Used Computer Store</item>
+        <item>Used Furniture Store</item>
+        <item>Used Game Store</item>
+        <item>Used Motorcycle Dealer</item>
+        <item>Used Musical Instrument Store</item>
+        <item>Used Office Furniture Store</item>
+        <item>Used Store Fixture Supplier</item>
+        <item>Used Tire Shop</item>
+        <item>Used Truck Dealer</item>
+        <item>Utility Contractor</item>
+        <item>Utility Trailer Dealer</item>
+        <item>Uzbeki Restaurant</item>
+        <item>Holiday Apartment</item>
+        <item>Vacation Home Rental Agency</item>
+        <item>Vacuum Cleaner Repair Shop</item>
+        <item>Vacuum Cleaner Store</item>
+        <item>Vacuum Cleaning System Supplier</item>
+        <item>Valencian Restaurant</item>
+        <item>Valet Parking Service</item>
+        <item>Van Rental Agency</item>
+        <item>Vaporizer Store</item>
+        <item>Variety Store</item>
+        <item>Vascular Surgeon</item>
+        <item>Vastu Consultant</item>
+        <item>VCR Repair Service</item>
+        <item>Vegan Restaurant</item>
+        <item>Vegetable Wholesale Market</item>
+        <item>Vegetable Wholesaler</item>
+        <item>Vegetarian Cafe and Deli</item>
+        <item>Vegetarian Restaurant</item>
+        <item>Vehicle Examination Office</item>
+        <item>Vehicle Exporter</item>
+        <item>Vehicle Inspection</item>
+        <item>Vehicle Shipping Agent</item>
+        <item>Velodrome</item>
+        <item>Vending Machine Supplier</item>
+        <item>Venereologist</item>
+        <item>Venetian Restaurant</item>
+        <item>Venezuelan Restaurant</item>
+        <item>Ventilating Equipment Manufacturer</item>
+        <item>Venture Capital Company</item>
+        <item>Veterans Affairs Department</item>
+        <item>Veterans Center</item>
+        <item>Veterans Hospital</item>
+        <item>Veterans Organization</item>
+        <item>Veterinarian</item>
+        <item>Veterinary Pharmacy</item>
+        <item>Video Arcade</item>
+        <item>Video Camera Repair Service</item>
+        <item>Video Conferencing Equipment Supplier</item>
+        <item>Video Conferencing Service</item>
+        <item>Video Duplication Service</item>
+        <item>Video Editing Service</item>
+        <item>Video Equipment Repair Service</item>
+        <item>Video Game Rental Kiosk</item>
+        <item>Video Game Rental Service</item>
+        <item>Video Game Rental Store</item>
+        <item>Video Game Store</item>
+        <item>Video Karaoke</item>
+        <item>Video Production Service</item>
+        <item>Video Store</item>
+        <item>Vietnamese Restaurant</item>
+        <item>Villa</item>
+        <item>Village Hall</item>
+        <item>Vineyard</item>
+        <item>Vineyard Church</item>
+        <item>Vintage Clothing Store</item>
+        <item>Violin Shop</item>
+        <item>Virtual Office Rental</item>
+        <item>Visa and Passport Office</item>
+        <item>Visa Consultant</item>
+        <item>Visitor Center</item>
+        <item>Vitamin and Supplements Store</item>
+        <item>Vocal Instructor</item>
+        <item>Vocational College</item>
+        <item>Vocational School One</item>
+        <item>Vocational School</item>
+        <item>Volkswagen Dealer</item>
+        <item>Volleyball Club</item>
+        <item>Volleyball Court</item>
+        <item>Volleyball Instructor</item>
+        <item>Volunteer Organization</item>
+        <item>Volvo Dealer</item>
+        <item>Voter Registration Office</item>
+        <item>Voting Facility</item>
+        <item>Waldorf Kindergarten</item>
+        <item>Waldorf School</item>
+        <item>Walk-In Clinic</item>
+        <item>Wallpaper Store</item>
+        <item>War Museum</item>
+        <item>Warehouse</item>
+        <item>Warehouse club</item>
+        <item>Warehouse store</item>
+        <item>Washer and Dryer Repair Service</item>
+        <item>Washer and Dryer Store</item>
+        <item>Waste Management Service</item>
+        <item>Watch Manufacturer</item>
+        <item>Watch Repair Service</item>
+        <item>Watch Store</item>
+        <item>Water Cooler Supplier</item>
+        <item>Water Damage Restoration Service</item>
+        <item>Water Filter Supplier</item>
+        <item>Water Jet Cutting Service</item>
+        <item>Water Mill</item>
+        <item>Water Park</item>
+        <item>Water Polo Pool</item>
+        <item>Water Pump Supplier</item>
+        <item>Water Purification Company</item>
+        <item>Water Ski Shop</item>
+        <item>Water Skiing Club</item>
+        <item>Water Skiing Instructor</item>
+        <item>Water Skiing Service</item>
+        <item>Water Softening Equipment Supplier</item>
+        <item>Water Sports Equipment Rental Service</item>
+        <item>Water Tank Cleaning Service</item>
+        <item>Water Testing Service</item>
+        <item>Water Treatment Plant</item>
+        <item>Water Treatment Supplier</item>
+        <item>Water Utility Company</item>
+        <item>Water Works</item>
+        <item>Water Works Equipment Supplier</item>
+        <item>Waterbed Repair Service</item>
+        <item>Waterbed Store</item>
+        <item>Waterproofing Company</item>
+        <item>Wax Museum</item>
+        <item>Wax Supplier</item>
+        <item>Waxing Hair Removal Service</item>
+        <item>Weather Forecast Service</item>
+        <item>Weaving Mill</item>
+        <item>Web Hosting Company</item>
+        <item>Website Designer</item>
+        <item>Wedding Bakery</item>
+        <item>Wedding Buffet</item>
+        <item>Wedding Chapel</item>
+        <item>Wedding Dress Rental Service</item>
+        <item>Wedding Photographer</item>
+        <item>Wedding Planner</item>
+        <item>Wedding Service</item>
+        <item>Wedding Souvenir Shop</item>
+        <item>Wedding Store</item>
+        <item>Wedding Venue</item>
+        <item>Weigh Station</item>
+        <item>Weight Loss Service</item>
+        <item>Weightlifting Area</item>
+        <item>Weir</item>
+        <item>Welder</item>
+        <item>Welding Gas Supplier</item>
+        <item>Welding Supply Store</item>
+        <item>Well Drilling Contractor</item>
+        <item>Wellness Center</item>
+        <item>Wellness Hotel</item>
+        <item>Wellness Program</item>
+        <item>Welsh Restaurant</item>
+        <item>Wesleyan Church</item>
+        <item>West African Restaurant</item>
+        <item>Western Apparel Store</item>
+        <item>Western Restaurant</item>
+        <item>Whale Watching Tour Agency</item>
+        <item>Wheel Alignment Service</item>
+        <item>Wheel Store</item>
+        <item>Wheelchair Rental Service</item>
+        <item>Wheelchair Repair Service</item>
+        <item>Wheelchair Store</item>
+        <item>Wholesale Bakery</item>
+        <item>Wholesale Drugstore</item>
+        <item>Wholesale Florist</item>
+        <item>Wholesale Food Store</item>
+        <item>Wholesale Grocer</item>
+        <item>Wholesale Jeweler</item>
+        <item>Wholesale Market</item>
+        <item>Wholesale Plant Nursery</item>
+        <item>Wholesaler</item>
+        <item>Wholesaler Household Appliances</item>
+        <item>Wi-Fi Spot</item>
+        <item>Wicker Store</item>
+        <item>Wig Shop</item>
+        <item>Wildlife and Safari Park</item>
+        <item>Wildlife Park</item>
+        <item>Wildlife Refuge</item>
+        <item>Wildlife Rescue Service</item>
+        <item>Willow Basket Manufacturer</item>
+        <item>Wind Farm</item>
+        <item>Wind Turbine Builder</item>
+        <item>Window Cleaning Service</item>
+        <item>Window Installation Service</item>
+        <item>Window Supplier</item>
+        <item>Window Tinting Service</item>
+        <item>Window Treatment Store</item>
+        <item>Windsurfing Store</item>
+        <item>Wine Bar</item>
+        <item>Wine Cellar</item>
+        <item>Wine Club</item>
+        <item>Wine Storage Facility</item>
+        <item>Wine Store</item>
+        <item>Wine Wholesaler and Importer</item>
+        <item>Winemaking Supply Store</item>
+        <item>Winery</item>
+        <item>Wing Chun School</item>
+        <item>Wok Restaurant</item>
+        <item>Women’s Clothing Store</item>
+        <item>Womens College</item>
+        <item>Women’s Organization</item>
+        <item>Womens Personal Trainer</item>
+        <item>Womens Protection Service</item>
+        <item>Women’s Shelter</item>
+        <item>Wood and Laminate Flooring Supplier</item>
+        <item>Wood Floor Installation Service</item>
+        <item>Wood Floor Refinishing Service</item>
+        <item>Wood Frame Supplier</item>
+        <item>Wood Stove Shop</item>
+        <item>Wood Supplier</item>
+        <item>Wood Working Class</item>
+        <item>Woodworker</item>
+        <item>Woodworking Supply Store</item>
+        <item>Wool Store</item>
+        <item>Work Clothes Store</item>
+        <item>Workers’ Club</item>
+        <item>Working Womens Hostel</item>
+        <item>Wrestling School</item>
+        <item>X-ray Equipment Supplier</item>
+        <item>X-ray Lab</item>
+        <item>Xiang Cuisine Restaurant</item>
+        <item>Yacht Broker</item>
+        <item>Yacht Club</item>
+        <item>Yakatabune</item>
+        <item>Yakiniku Restaurant</item>
+        <item>Yakitori Restaurant</item>
+        <item>Yamaha Motorcycle Dealer</item>
+        <item>Yarn Store</item>
+        <item>Yemenite Restaurant</item>
+        <item>Yeshiva</item>
+        <item>Yoga Instructor</item>
+        <item>Yoga Retreat Center</item>
+        <item>Yoga Studio</item>
+        <item>Youth Care</item>
+        <item>Youth Center</item>
+        <item>Youth Clothing Store</item>
+        <item>Youth Club</item>
+        <item>Youth Group</item>
+        <item>Youth Hostel</item>
+        <item>Youth Organization</item>
+        <item>Youth Social Services Organization</item>
+        <item>Zac</item>
+        <item>Zhe Jiang Restaurant</item>
+        <item>Zoo</item>
+    </string-array>
+
+</resources>

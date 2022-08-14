@@ -1,0 +1,111 @@
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/bookingcard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/centerpeice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_centerInParent="true"
+            android:text="-"/>
+<!--        service name-->
+        <TextView
+            android:id="@+id/bookingservicename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toStartOf="@id/centerpeice"
+            android:text="@string/service_name"
+            android:layout_centerInParent="true"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+<!--        when-->
+
+        <TextView
+            android:id="@+id/bookingtime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@id/centerpeice"
+            android:text="time"
+            android:textSize="20sp"
+            android:layout_centerInParent="true"
+            android:textStyle="bold"/>
+<!--        hidden shit-->
+
+        <TextView
+            android:id="@+id/bookingcomment"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bookername"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/bookingprice"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/location"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/day"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/month"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/year"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/hour"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/minute"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/booking_service_provider"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

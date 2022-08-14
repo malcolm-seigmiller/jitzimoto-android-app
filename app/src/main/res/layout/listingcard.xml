@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/listingcard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/listing_myservice_servicename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_name"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:id="@+id/listing_myservice_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="price"
+            android:textColor="@android:color/black"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/listing_biz"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="biz name"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/listing_myservice_servicename"/>
+
+        <TextView
+            android:id="@+id/listing_days_available"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="days available:"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/listing_biz" />
+
+        <TextView
+            android:id="@+id/listing_mon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/mon"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/listing_days_available"/>
+
+        <TextView
+            android:id="@+id/listing_tue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tue"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/listing_mon"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/listing_days_available"/>
+        <TextView
+            android:id="@+id/listing_wed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/wed"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/listing_tue"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/listing_days_available"/>
+        <TextView
+            android:id="@+id/listing_thr"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/thu"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/listing_wed"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/listing_days_available"/>
+        <TextView
+            android:id="@+id/listing_fri"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fri"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/listing_thr"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/listing_days_available"/>
+        <TextView
+            android:id="@+id/listing_sat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sat"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/listing_fri"
+            android:layout_marginBottom="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_below="@id/listing_days_available"/>
+        <TextView
+            android:id="@+id/listing_sun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/sun"
+            android:textSize="20sp"
+            android:layout_toEndOf="@id/listing_sat"
+            android:layout_marginBottom="10dp"
+            android:layout_below="@id/listing_days_available"/>
+
+        <TextView
+            android:id="@+id/myservice_serviceType"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/listing_myservice_serviceDescription"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/listing_myservice_location"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/listing_myservice_currency"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

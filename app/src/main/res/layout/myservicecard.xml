@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:id="@+id/myservicecard">
+<!--not really the best showing, you are going to have to massively overhaul the thing-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+        <TextView
+            android:id="@+id/myservice_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="price"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        F<TextView
+            android:id="@+id/myservice_servicename"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/service_name"
+            android:textColor="@android:color/black"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+
+<!--        hidden shit-->
+        <TextView
+            android:id="@+id/myservice_serviceType"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myservice_serviceDescription"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myservice_mon"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_tue"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_wed"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_thu"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+            <TextView
+            android:id="@+id/myservice_fri"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myservice_sat"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myservice_sun"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myservice_hourStart"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_minStart"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_hourEnd"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_minEnd"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+        <TextView
+            android:id="@+id/myservice_currency"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+        <TextView
+            android:id="@+id/myservice_name"
+            android:visibility = "gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:textSize="15sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
