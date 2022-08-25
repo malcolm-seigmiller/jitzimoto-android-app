@@ -121,7 +121,7 @@ class bizSignup : Fragment() {
                                     if (confimpwdcheck(pwdConfirm)){
                                         if (pwd == pwdConfirm){
                                             //add password restrictions
-                                            println("all good nigga")
+                                            println("all good")
                                             //i think you should check if the email is already associated with an account here
                                             accuntcheck(email,pwd,country,cityAndRegion,broadBiz,bizType,name)
                                         }else{
